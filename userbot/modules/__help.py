@@ -27,12 +27,12 @@ logging.basicConfig(
     level=logging.WARNING)
 
 
-@register(outgoing=True, pattern=r"^\.rhelp")
+@register(outgoing=True, pattern=r"^\.helpmek")
 async def yardim(event):
     try:
         tgbotusername = BOT_USERNAME
         if tgbotusername is not None:
-            results = await event.client.inline_query(tgbotusername, "@Ram_ubot")
+            results = await event.client.inline_query(tgbotusername, "@Jem_urbot")
             await results[0].click(
                 event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
             )

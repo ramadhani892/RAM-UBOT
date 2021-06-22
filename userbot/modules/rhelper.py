@@ -11,23 +11,23 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.helpmy$")
 async def usit(e):
     await e.edit(
-        f"**Hai {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.rhelp` Atau Bisa `.help` atau Minta Bantuan Ke:\n"
-        "\n[LANDAK🦔](t.me/teman_random)"
+        f"**Hai {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.helpmek` Atau Bisa `.help` atau Minta Bantuan Ke:\n"
+        "\n[AZEL🦔](t.me/Deadendzs)"
         "\n\n[SUPPORT](https://t.me/geezsupportgroup)"
         "\n\n[CHANNEL](https://t.me/ramubotinfo)")
 
 
-@register(outgoing=True, pattern="^.rvars$")
+@register(outgoing=True, pattern="^.mekvars$")
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/ramadhani892/RAM-UBOT/RAM-UBOT/varshelper.txt)")
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/azelfirdaus/JEM-BOT/JEM-BOT/varshelper.txt)")
 
 
 CMD_HELP.update({
     "ramhelper":
     "`.helpmy`\
-\nPenjelasan: Bantuan Untuk RAM-UBOT.\
-\n`.rvars`\
+\nPenjelasan: Bantuan Untuk JEM-BOT.\
+\n`.mekvars`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
 })

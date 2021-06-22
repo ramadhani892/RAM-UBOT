@@ -1,4 +1,4 @@
-<a href="https://www.instagram.com/lilfrdzr=nametag"><img src="https://telegra.ph/file/779e6f75d46760b35fb51.jpg" width="320" height="211" alt="  JEM-BOT" /></a>
+<a href="https://www.instagram.com/lilfrdzr=nametag"><img src="https://telegra.ph/file/9a5eafc72be71b2e1b3a8.jpg" width="320" height="211" alt="  JEM-BOT" /></a>
 
 <p align="center">
   <a href="https://github.com/ramadhani892/RAM-UBOT/fork">

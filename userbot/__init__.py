@@ -178,7 +178,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+REPO_NAME = os.environ.get("REPO_NAME") or "🥵𝙅𝙀𝙈-𝘽𝙊𝙏🥵"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -217,23 +217,23 @@ HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/5daa73aa6d1afbd1da353.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/lilfrdz"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "𑁍"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/teman_random"
+    "GROUP_LINK") or "t.me/deadendzs"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/MaafGausahSokap"
+    "OWNER_BOT") or "t.me/kicuh"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🥵𝙅𝙀𝙈-𝘽𝙊𝙏🥵"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -275,7 +275,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║DAH AKTIF YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```𝖩𝖤𝖬-𝖡𝖮𝖳 𝖣𝖨 𝖠𝖪𝖳𝖨𝖥𝖪𝖠𝖭!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)

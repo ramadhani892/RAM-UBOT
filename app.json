@@ -1,7 +1,7 @@
 {
-  "name": "RAM-UBOT",
-  "description": "[RAM-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg",
+  "name": "JEM-BOT",
+  "description": "[JEM-BOT] USERBOT YANG DI BUAT UNTUK APALAH GITU.",
+  "logo": "https://telegra.ph/file/779e6f75d46760b35fb51.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/e590ad501ad8981fb4684.jpg",
+      "value": "https://telegra.ph/file/779e6f75d46760b35fb51.jpg",
       "required": true
      },
      "STRING_SESSION": {

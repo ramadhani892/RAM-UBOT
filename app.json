@@ -1,7 +1,7 @@
 {
   "name": "DHIKASPTR-BOT",
   "description": "[DHIKASPTR-BOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://ibb.co/J33rhXJ",
+  "logo": "https://telegra.ph/file/430025c99aaff1149b054.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/e590ad501ad8981fb4684.jpg",
+      "value": "https://telegra.ph/file/430025c99aaff1149b054.jpg",
       "required": true
      },
      "STRING_SESSION": {

@@ -130,7 +130,7 @@ async def save_welcome(event):
     elif event.reply_to_msg_id and not string:
         rep_msg = await event.get_reply_message()
         string = rep_msg.text
-    success = "`Berhasil Menyimpan Pesan Welcome {}`"
+    success = "`SET WELCOME LU UDAH KESIMPEN YA {}`"
     if add_welcome_setting(event.chat_id, 0, string, msg_id) is True:
         await event.edit(success.format('Disini'))
     else:
@@ -150,11 +150,11 @@ async def show_welcome(event):
         msg_o = await event.client.get_messages(entity=BOTLOG_CHATID,
                                                 ids=int(cws.f_mesg_id))
         await event.edit(
-            "`Anda Telah Membuat Pesan Welcome Disini`")
+            "`LU UDAH BIKIN SET WELCOME DISINI`")
         await event.reply(msg_o.message, file=msg_o.media)
     elif cws and cws.reply:
         await event.edit(
-            "`Anda Telah Membuat Pesan Welcome Disini`")
+            "`LU UDAH BIKIN SET WELCOME DISINI`")
         await event.reply(cws.reply)
 
 

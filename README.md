@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/dhikasaputra/DHIKASPTR-BOT?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/ramadhani892/RAM-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+    <img src="https://img.shields.io/github/stars/dhikasaputra/DHIKASPTR-BOT?style=social">
   </a>
 </p>  
 
@@ -15,7 +15,7 @@
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 ## PEMILIK REPO
-* **Landak** 🦔
+* **Dhika** 
 [<img src="https://media.giphy.com/media/o97Wl6qaoJytXcppUj/giphy.gif">](https://t.me/maafgausahsokap)
 
   

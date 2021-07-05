@@ -4,7 +4,7 @@ FROM xluxz/geezproject:buster
 # Geez-UserBot
 #yaudah iya
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/dhikasaputra/DHIKASPTR-BOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot

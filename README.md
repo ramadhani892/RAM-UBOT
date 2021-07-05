@@ -1,16 +1,16 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5537105.png" width="320" height="211" alt="  RAM-UBOT" /></a>
+<a href="https://www.instagram.com/andhika_sptr?r=nametag"><img src="https://images.cooltext.com/5537105.png" width="320" height="211" alt="  RAM-UBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
+  <a href="https://github.com/dhikasaputra/DHIKASPTR-BOT/fork">
     <img src="https://img.shields.io/github/forks/dhikasaputra/DHIKASPTR-BOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
+  <a href="https://github.com/dhikasaputra/DHIKASPTR-BOT">
     <img src="https://img.shields.io/github/stars/dhikasaputra/DHIKASPTR-BOT?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+![VIEWS](https://komarev.com/ghpvc/?username=dhikasaputra)
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 

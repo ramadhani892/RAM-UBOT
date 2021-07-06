@@ -42,7 +42,7 @@ async def _(rambot):
     new_rights = ChatAdminRights(invite_users=True)
     try:
         await rambot.client(startvc(rambot.chat_id))
-        await rambot.edit("`OBROLAN SUARA DIMULAI, YANG ONCAM LO NGENTOT...`")
+        await rambot.edit("`OBROLAN SUARA DIMULAI, YANG ONCAM GUA KEPLAK PALA LU...`")
     except Exception as ex:
         await rambot.edit(f"`{str(ex)}`")
 
@@ -58,7 +58,7 @@ async def _(rambot):
     new_rights = ChatAdminRights(invite_users=True)
     try:
         await rambot.client(stopvc(await get_call(rambot)))
-        await rambot.edit("`OBROLAN SUARA DIHENTIKAN, TYPING AJAYA NGENTOT...`")
+        await rambot.edit("`OBROLAN SUARA DIHENTIKAN, JANGAN KAYA JAMET VCG MULU...`")
     except Exception as ex:
         await rambot.edit(f"`{str(ex)}`")
 

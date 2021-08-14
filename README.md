@@ -1,21 +1,21 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5537105.png" width="320" height="211" alt="  RAM-UBOT" /></a>
+<a href="https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg" width="320" height="211" alt="  JOO-UBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+  <a href="https://github.com/H3llnn/JOO-UBOT/fork">
+    <img src="https://img.shields.io/github/forks/H3llnn/JOO-UBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+  <a href="https://github.com/H3llnn/JOO-UBOT">
+    <img src="https://img.shields.io/github/stars/H3llnn/JOO-UBOT?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+![VIEWS](https://komarev.com/ghpvc/?username=H3llnn)
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 ## PEMILIK REPO
-* **Landak** 🦔
+* **PAIJOO**👩‍✈️
 [<img src="https://media.giphy.com/media/o97Wl6qaoJytXcppUj/giphy.gif">](https://t.me/maafgausahsokap)
 
   

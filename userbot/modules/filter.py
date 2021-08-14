@@ -144,7 +144,7 @@ async def filters_active(event):
 CMD_HELP.update({
     "filter":
     "`Fltrs`\
-    \nUsage: Melihat filter RAM UBOT yang aktif di obrolan.\
+    \nUsage: Melihat filter JOO UBOT yang aktif di obrolan.\
     \n\n`Fltr` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
     \nUsage: Membuat filter di obrolan.\
     \nBot Akan Membalas Jika Ada Yang Menyebut 'keyword' yang dibuat.\

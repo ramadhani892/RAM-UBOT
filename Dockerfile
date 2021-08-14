@@ -2,15 +2,16 @@
 FROM xluxz/geezproject:buster
 # RAM-UBOT
 # Geez-UserBot
+# JOO-UBOT
 #yaudah iya
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/H3llnn/JOO-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/ramadhani892/RAM-UBOT/RAM-UBOT/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/H3llnn/JOO-UBOT/JOO-UBOT/requirements.txt
 
 EXPOSE 80 443
 

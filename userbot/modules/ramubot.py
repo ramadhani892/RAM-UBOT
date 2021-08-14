@@ -12,7 +12,7 @@ async def typewriter(typew):
     await typew.edit("`Kedua kamu manis`")
     sleep(1)
     await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
-# Create by myself @localheart
+# Create by myself @Joodck
 
 
 @register(outgoing=True, pattern='^.punten(?: |$)(.*)')
@@ -56,6 +56,8 @@ async def typewriter(typew):
     await typew.edit("**Jeje,Mengintil✅**")
     sleep(3)
     await typew.edit("**CUMA RAMA YANG BENER!**")
+    await typew.edit("**JOO,Ganteng☑️**")
+    await typew.edit("**JOO,Ganteng✅**")
 
 
 @register(outgoing=True, pattern='^.lahk(?: |$)(.*)')

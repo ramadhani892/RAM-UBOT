@@ -16,7 +16,7 @@
 
 ## PEMILIK REPO
 * **PAIJOO**👩‍✈️
-[<img src="https://media.giphy.com/media/o97Wl6qaoJytXcppUj/giphy.gif">](https://t.me/maafgausahsokap)
+[<img src="https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg">](https://t.me/Joodck)
 
   
   
@@ -27,18 +27,18 @@
 
 ### JOIN DULU TOT!!:
 
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel%20RAM%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/republicviral"><img src="https://img.shields.io/badge/Channel%20JOO%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/joinchat/R0o_i381SoxmMjg1"><img src="https://img.shields.io/badge/Join-REPUBLIC%20OFFUN-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Penjelasan:
 * **Repo Nya toxic, Gajelas pokoknya mah.** 
-[<img src="https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg">](https://t.me/ootspambott)
+[<img src="https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg">](https://t.me/ootspambott)
 
 
-<h3 align="center">REPO RAM UBOT DIBUAT KARNA YAA MEMANG PENGEN DIBUAT WKWKWK.</h3>
+<h3 align="center">REPO JOO UBOT DIBUAT KARNA BELAJAR NGE FORK AJA WKWK.</h3>
 <p align="center">&nbsp;</p>
 
-### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20RAM%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
+### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20JOO%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
 
 
 ## Bagaimana Cara Deploy?
@@ -63,4 +63,5 @@ TERIMAKASIH UNTUK
 *   [VICKY](https://t.me/vckyouubitch) - ⚡Geez-Userbot⚡
 *   [KOALA](https://t.me/manusiarakitann) - KAMPANG BOT
 *   [TEAMULTROID](https://github.com/TeamUltroid) - ULTROID
+*   [PAIJOO](https://t.me/Joodck) - JOO-UBOT
 *    DAN MASIH BANYAK LAGI TOT

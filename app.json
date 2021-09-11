@@ -1,7 +1,7 @@
 {
   "name": "JOO-UBOT",
-  "description": "[JOO-UBOT] USERBOT DIBUAT KARENA BELAJAR FORK AJA WKWK.",
-  "logo": "https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg",
+  "description": "[JOO-UBOT] USERBOT DIBUAT KARENA BELAJAR AJA WKWK.",
+  "logo": "https://telegra.ph/file/5c4f9f3ae374a3c9bbd79.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/H3llnn/JOO-UBOT",
   "telegram": "https://t.me/Joodck",
-  "success_url": "https://t.me/joinchat/R0o_i381SoxmMjg1",
+  "success_url": "https://t.me/REPUBLICHORN",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -24,11 +24,11 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg",
+      "value": "https://telegra.ph/file/5c4f9f3ae374a3c9bbd79.jpg",
       "required": true
      },
      "STRING_SESSION": {
-      "description": "Ambil String Session di @ramubotspam dengan cara ketik #string.",
+      "description": "Ambil String Session di @GeezSupportGroup dengan cara ketik #string.",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -46,8 +46,8 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Masuk @ootspambot atau Buatlah sebuah grup private/public masukan @goku_isbot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
-      "value": "-1001122897608",
+      "description": "Buatlah sebuah grup private/public masukan @MissRose_bot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.(Kalo ga pengen ribet pake itu yaa)",
+      "value": "-1001543327227",
       "required": true
     },
     "COUNTRY": {
@@ -90,8 +90,8 @@
       "required": false
     },
     "G_BAN_LOGGER_GROUP": {
-      "description": "Masuk @ootspambot Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @goku_isbot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
-      "value": "-1001122897608",
+      "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan @MissRose_bot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel. (Kalo ga pengen ribet pake itu yaa)",
+      "value": "-1001543327227",
       "required": false
     },
     "LOGSPAMMER": {

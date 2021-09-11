@@ -1,4 +1,4 @@
-<a href="https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg" width="320" height="211" alt="  JOO-UBOT" /></a>
+<a href="https://telegra.ph/file/5c4f9f3ae374a3c9bbd79.jpg" width="320" height="211" alt="  JOO-UBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/H3llnn/JOO-UBOT/fork">
@@ -12,40 +12,34 @@
 
 ![VIEWS](https://komarev.com/ghpvc/?username=H3llnn)
 
-<a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
+<a href="https://t.me/LoggerchJooUbot"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-S+-gold.svg?style=for-the-badge&logo=Factor.">
 
 ## PEMILIK REPO
-* **PAIJOO**👩‍✈️
-[<img src="https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg">](https://t.me/Joodck)
-
-  
-  
-  
-  
-# KALO FORK TUH KASIH BINTANG YA TOLOL!
+* **PAIJOO**👶
+[<img src="https://telegra.ph/file/87c3d4c1abc2c1c9a0072.jpg">](https://t.me/Joodck)
 
 
-### JOIN DULU TOT!!:
+### JOIN DULU LAH👶!!:
 
-<a href="https://t.me/republicviral"><img src="https://img.shields.io/badge/Channel%20JOO%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/joinchat/R0o_i381SoxmMjg1"><img src="https://img.shields.io/badge/Join-REPUBLIC%20OFFUN-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ChTutorialSwort"><img src="https://img.shields.io/badge/Channel%20TUTORIAL%20SWORT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/REPUBLICHORN"><img src="https://img.shields.io/badge/Join-REPUBLIC%20HORN-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Penjelasan:
-* **Repo Nya toxic, Gajelas pokoknya mah.** 
-[<img src="https://telegra.ph/file/282f6ea8fc30cf514f8fa.jpg">](https://t.me/ootspambott)
+* **Repo Nya masih cacad ka, jangan dibully🥺** 
+[<img src="https://telegra.ph/file/5c4f9f3ae374a3c9bbd79.jpg">](https://t.me/LoggerchJooUbot)
 
 
 <h3 align="center">REPO JOO UBOT DIBUAT KARNA BELAJAR NGE FORK AJA WKWK.</h3>
 <p align="center">&nbsp;</p>
 
-### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20JOO%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
+### <a href="https://t.me/LoggerchJooUbot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20JOO%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
 
 
 ## Bagaimana Cara Deploy?
 
 
 * **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src="https://media.giphy.com/media/XD4BoRtenzE1eTIHzZ/giphy.gif">](https://t.me/UserbotChannel/36)
+[<img src="https://telegra.ph/file/5c4f9f3ae374a3c9bbd79.jpg">](https://t.me/ChTutorialSwort/14)
 
 ### AMBIL STRING DI BAWAH INI:
 
@@ -64,4 +58,4 @@ TERIMAKASIH UNTUK
 *   [KOALA](https://t.me/manusiarakitann) - KAMPANG BOT
 *   [TEAMULTROID](https://github.com/TeamUltroid) - ULTROID
 *   [PAIJOO](https://t.me/Joodck) - JOO-UBOT
-*    DAN MASIH BANYAK LAGI TOT
+*    DAN MASIH BANYAK LAGI WKWK

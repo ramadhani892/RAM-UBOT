@@ -1,9 +1,6 @@
 # Using Python Slim-Buster
 FROM xluxz/geezproject:buster
-# RAM-UBOT
-# Geez-UserBot
 # JOO-UBOT
-#yaudah iya
 
 RUN git clone -b RAM-UBOT https://github.com/H3llnn/JOO-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin

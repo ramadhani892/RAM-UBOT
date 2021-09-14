@@ -83,7 +83,7 @@ async def typewriter(typew):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ HALO ANAK YATIM,AKU DATANG :) \n"
+                     "╬═╬ HALO MANTAN,AKU DATANG :) \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
@@ -125,7 +125,7 @@ async def typewriter(typew):
                      "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
                      "▄▀──█▄▄──────█─█▄▄\n"
                      "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-                     "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok Anak Ngentot..`")
+                     "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok lariii ada dia. . .`")
 
 
 @register(outgoing=True, pattern='^.ular(?: |$)(.*)')
@@ -249,7 +249,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("┈┈┏━╮╭━┓┈╭━━━━╮\n"
-                     "┈┈┃┏┗┛┓┃╭┫Ngok ┃\n"
+                     "┈┈┃┏┗┛┓┃╭┫😧ha ┃\n"
                      "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
                      "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
                      "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
@@ -283,7 +283,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gkck(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Proses global kick Si ngentot!!...**")
+    await typew.edit("**Proses global kick!!...**")
     sleep(3)
     await typew.edit("__mengeluarkan dari (1) Group__")
     sleep(1)
@@ -347,16 +347,18 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Ketiga Kamu benar benar tolol..`")
     sleep(1)
-    await typew.edit("`Dan kamu di lahirkan Dalam keadaan tolol...`")
+    await typew.edit("`Dan kamu di takdirkan tolol...`")
     sleep(1)
-    await typew.edit("`Dasar kamu anak TOLOL...`")
+    await typew.edit("`Dasar kamu TOLOL...`")
     sleep(1)
     await typew.edit("`T`")
     await typew.edit("`TO`")
     await typew.edit("`TOL`")
     await typew.edit("`TOLO`")
     await typew.edit("`TOLOL`")
-    await typew.edit("`TOLOL!!!!`")
+    await typew.edit("`Di baca`")
+    sleep(2)
+    await typew.edit("`GOBLOK`")
 
 
 @register(outgoing=True, pattern='^.uasu(?: |$)(.*)')
@@ -364,7 +366,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Memeriksa dyno heroku anda...`")
     sleep(1)
-    await typew.edit("✨")
+    await typew.edit("🤴")
     sleep(2)
     await typew.edit(f"𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡!! {REPO_NAME}\n\n"
                      "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
@@ -385,7 +387,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.kickme(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit(f"`{ALIVE_NAME}, Saat Nya Pergi...`")
+    await typew.edit(f"`{ALIVE_NAME}, goodbye, terimakasih untuk semunya...😣`")
     sleep(3)
     await typew.edit(f"`{ALIVE_NAME} Telah meninggalkan Group....`")
 
@@ -393,7 +395,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Mutualan Yukkk!...**")
+    await typew.edit("**MUTUALAG IG YUK!...**")
     sleep(2)
     await typew.edit(f"𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌= [𝐓𝐄𝐊𝐀𝐍]({IG_ALIVE})")
 

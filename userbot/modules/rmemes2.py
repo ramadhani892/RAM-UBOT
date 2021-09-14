@@ -1548,7 +1548,7 @@ async def leave(e):
                      "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
                      "▄▀──█▄▄──────█─█▄▄\n"
                      "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-                     "─▀───────▀▀─▀───────▀▀\n`Kabur Ah, Banyak Anak Haram disini, Awowkowkwk..`")
+                     "─▀───────▀▀─▀───────▀▀\n`Kabur .....ada dia disini, Awowkowkwk..`")
 
 
 @register(outgoing=True, pattern=r"^\.fail$")
@@ -1675,7 +1675,7 @@ async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
                      "`\n┈┈┈┃┊┊╭━╮┻╮┈┈┈┈\n┈┈┈╱╲┊┃▋┃▋┃┈┈┈┈\n┈┈╭┻┊┊╰━┻━╮┈┈┈┈`"
-                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈ANDA GAY`"
+                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈bau tanah`"
                      "\n┈┈┈┈┈┈┏━┓┈┈┈┈┈┈")
 
 

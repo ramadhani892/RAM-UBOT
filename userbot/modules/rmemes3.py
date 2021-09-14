@@ -16,41 +16,41 @@ async def koc(e):
         sleep(1)
         await e.edit("Aku Sedihhh")
         sleep(1)
-        await e.edit("Kenapa si")
+        await e.edit("AKU JUGA ")
         sleep(1)
-        await e.edit("GAMPANG BGT NYAKITIN")
+        await e.edit("PNGN DI GHOSTING ")
         sleep(1)
-        await e.edit("HATI GUA BUKAN BUAT DI GHOSTING")
+        await e.edit("KENAPA GA ADA YANG MAU GHOSTING GW")
         sleep(1)
         await e.edit("TAI BANGET ASLI")
         sleep(1)
         await e.edit("PARAH SI")
         sleep(1)
-        await e.edit("DEMI APASII")
+        await e.edit("GHOSTING GW DOOONG")
         sleep(1)
-        await e.edit("TWINGG")
+        await e.edit("GA ADA YANG MAU AMA GW YA")
         sleep(1)
-        await e.edit("KONTOL")
+        await e.edit("WALAUPUN CUMA GHOSTING?")
         sleep(1)
-        await e.edit("MEMEK")
+        await e.edit("GA ADA YANG MAU?")
         sleep(1)
-        await e.edit("AKU DI GHOSTING")
+        await e.edit("PNGN BNGT DI GHOSTING INI")
         sleep(1)
-        await e.edit("BANGSAT")
+        await e.edit("WOIIIIII")
         sleep(1)
-        await e.edit("ANJING")
+        await e.edit("GHOSTING GW!!!")
         sleep(1)
         await e.edit("😡😡😡")
         sleep(1)
         await e.edit("🥴🥴🥴")
         sleep(1)
-        await e.edit("ANJINGGGG༼")
+        await e.edit("TAPI KALO MAU GHOSTING BILANG BILANG YA ༼")
         sleep(1)
-        await e.edit("TAIIII")
+        await e.edit("BIAR AKU GA KAGET")
         sleep(1)
-        await e.edit("AH ELAHH BABI")
+        await e.edit("AKUBPNGN NGRASAIN DI GHOSTING")
         sleep(1)
-        await e.edit("GAUSAH GANGGU")
+        await e.edit("TAPI GA MAU SAKIT ATI")
         sleep(1)
         await e.edit("GUA STRESS")
         sleep(1)
@@ -68,7 +68,7 @@ async def koc(e):
         sleep(1)
         await e.edit("MAU GAK JADI PACAR GUA??༼")
         sleep(1)
-        await e.edit("༼ TAPI BOONG TOD!!༽")
+        await e.edit("TAPI BOONG ༼!!༽KWKW😊")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -80,11 +80,11 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n/>💔  *E GAK DEH,UDH DI KSH GRATIS LU RUSAKIN`")
+                     "`\n/>💔  *E GAK DEH,UDH DI KSH GRATIS KAMU RUSAKIN`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *KENTOD`")
+                     "`\n💔<\\  *MAAP AKU AMBIL LAGI`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -190,12 +190,12 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "**OWNER RAM-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
-            "**RAMADHANI NAMANYA,ORANG NYA BAIK**"
-            "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
-            "**KALO MAU FORK REPONYA,IZIN DULU KE ORANG NYA YA GENGSSS**"
-            "**POKOK NYA OWNER NYA THEBEST BANGET SERIUSSSSS**"
-            "**UDAH POKOK NYA ITU AJA SIH,INTINYA OWNER NYA GANTENG DAN BAIK PARAH**"]
+            "**MAS 𝓚𝓲𝓶 ADALAH MANUSIA TERGANTENG DI HATI EMAK, KENALAN DULU SAMA MAS 𝓚𝓲𝓶 YUK**"
+            "**PANGGIL AJA MAS 𝓚𝓲𝓶,ORANG NYA BAIK**"
+            "**TINGGAL NYA DI PATI JAWA TENGAH INDONESIA**"
+            "**KALO GA TAU CARI AJA DI GOOGLE MAPS, KALO DEKET KITA BIKIN INPO SANTUY**"
+            "**POKOK NYA MAS 𝓚𝓲𝓶 ORNGNYA BIASA AJA🤭**"
+            "**UDAH POKOK NYA ITU AJA SIH,INTINYA MAS 𝓚𝓲𝓶 GAK JAHAT**"]
 
         for i in animation_ttl:
 

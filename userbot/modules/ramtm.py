@@ -31,7 +31,7 @@ async def _(event):
         except YouBlockedUserError:
             await lord.edit("`Mohon buka blokir` @TempMailBot `lalu coba lagi`")
             return
-        await event.edit(f"**RAM TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({lorduserbot})")
+        await event.edit(f"**KIM TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({lorduserbot})")
 
 
 # Alvin Ganteng

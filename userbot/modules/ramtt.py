@@ -3,7 +3,7 @@
 #
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
-# RAM-UBOT
+# KIM-UBOT
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot import bot, CMD_HELP
@@ -18,7 +18,7 @@ async def _(event):
         return
     d_link = event.pattern_match.group(1)
     if ".com" not in d_link:
-        await event.edit("`Mohon Maaf TOT, Saya Membutuhkan Link Video Tiktok Untuk Download Video Tiktok` **(._.)**")
+        await event.edit("`Mohon Maaf Tuan, Saya Membutuhkan Link Video Tiktok Untuk Download Video Tiktok` **(._.)**")
     else:
         await event.edit("```Video Sedang Diproses.....```")
     chat = "@ttsavebot"

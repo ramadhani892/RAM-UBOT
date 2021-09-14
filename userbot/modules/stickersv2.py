@@ -14,10 +14,10 @@ async def _(event):
         return
     reply_message = await event.get_reply_message()
     if not reply_message.media:
-        await event.edit("sir, This is not a image ")
+        await event.edit("TUAN MUDA, ini bukan sebuah gambar ")
         return
     chat = "@buildstickerbot"
-    await event.edit("Membuat Sticker..")
+    await event.edit("Membuat Sticker...,sabar dulu tuan muda")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -27,7 +27,7 @@ async def _(event):
             msg = await event.client.forward_messages(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await event.reply("unblock me (@buildstickerbot) and try again")
+            await event.reply("jangan blokir (@buildstickerbot) dan coba lagi")
             return
         if response.text.startswith("Hi!"):
             await event.edit("Can you kindly disable your forward privacy settings for good?")
@@ -63,7 +63,7 @@ async def _(event):
             await event.reply("Buka Blokir @stickers_to_image_bot Lalu Coba Lagi")
             return
         if response.text.startswith("I understand only stickers"):
-            await event.edit("`Maaf,Saya Tidak Bisa Mengubah Ini Menjadi Gambar, Periksa Kembali Apakah Itu Sticker Animasi?`")
+            await event.edit("`ngapunten,saya Tidak Bisa Mengubah Ini Menjadi Gambar, jajal delok neh opo iku Sticker Animasi?`")
         else:
             response = conv.wait_event(
                 events.NewMessage(
@@ -80,7 +80,7 @@ async def _(event):
                 await event.client.send_message(event.chat_id, response.message, reply_to=reply_message.id)
                 await event.client.delete_message(event.chat_id, [msg.id, response.id])
             else:
-                await event.edit("`Coba Lagi`")
+                await event.edit("`jajal neh!!!`")
         await bot.send_read_acknowledge(conv.chat_id)
 
 
@@ -92,7 +92,7 @@ async def sticker_to_png(sticker):
 
     img = await sticker.get_reply_message()
     if not img.document:
-        await sticker.edit("`Maaf,Ini Bukan Sticker`")
+        await sticker.edit("`Maaf,Iki ora stiker Cok!! Matamu melek Ben roh`")
         return False
 
     await sticker.edit("`Berhasil Mengambil Sticker!`")

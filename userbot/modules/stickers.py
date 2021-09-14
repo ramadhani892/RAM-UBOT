@@ -24,8 +24,8 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "BERUSAHA MENCURY TIKEL INI! HAHAHA",
-    "GUA NYOLONG TIKEL LU YA NGENTOTTTT!",
+    "BERUSAHA MALING STIKER IKI! AMIIT...KWKWKW",
+    "GW NYOLONG STIKER LU YA COOOOOOOK!",
 ]
 
 
@@ -54,7 +54,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "⭐":
+                if emoji != "🤴":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -71,12 +71,12 @@ async def kang(args):
         else:
             return await args.edit("`Mohon Maaf, File Tidak Didukug!`")
     else:
-        return await args.edit("`Mohon Maaf, Saya Gagal Mengambil Sticker Ini!`")
+        return await args.edit("`ampun tuan muda, Saya Gagal Mengambil Sticker Ini!☹️`")
 
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "⭐"
+            emoji = "🤴"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -187,7 +187,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Maaf Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
+                        "`Maaf tuan, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
@@ -217,7 +217,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Mohon Maaf, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker.`"
+                        "`Mohon Maaf tuan, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
@@ -275,7 +275,7 @@ async def resize_photo(photo):
 async def get_pack_info(event):
     if not event.is_reply:
         return await event.edit(
-            "`Mohon Balas Ke Sticker`"
+            "`bales ke stiker Cok! matane i lho`"
         )
 
     rep_msg = await event.get_reply_message()
@@ -286,10 +286,10 @@ async def get_pack_info(event):
         stickerset_attr = rep_msg.document.attributes[1]
         await event.edit("`Fetching details of the sticker pack, please wait..`")
     except BaseException:
-        return await event.edit("`Ini bukan sticker, Mohon balas ke sticker.`")
+        return await event.edit("`Iki ora stiker su..,  bales o ke sticker.`")
 
     if not isinstance(stickerset_attr, DocumentAttributeSticker):
-        return await event.edit("`Ini bukan sticker, Mohon balas ke sticker.`")
+        return await event.edit("`Iki ora stiker su.., bales o ke sticker.`")
 
     get_stickerset = await bot(
         GetStickerSetRequest(
@@ -305,7 +305,7 @@ async def get_pack_info(event):
             pack_emojis.append(document_sticker.emoticon)
 
     OUTPUT = (
-        f"**Sticker Title:** `{get_stickerset.set.title}\n`"
+        f"**judul stiker:** `{get_stickerset.set.title}\n`"
         f"**Nama Pendek Sticker:** `{get_stickerset.set.short_name}`\n"
         f"**Official:** `{get_stickerset.set.official}`\n"
         f"**Arsip:** `{get_stickerset.set.archived}`\n"
@@ -330,7 +330,7 @@ async def sticker_to_png(sticker):
     try:
         img.document.attributes[1]
     except Exception:
-        await sticker.edit("`Mohon Maaf, Ini Bukanlah Sticker`")
+        await sticker.edit("`Mohon Maaf, Iki ora Sticker coook`")
         return
 
     with io.BytesIO() as image:

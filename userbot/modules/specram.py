@@ -16,9 +16,9 @@ from userbot.events import register
 async def _(event):
     ureply = await event.get_reply_message()
     if not (ureply and ("audio" in ureply.document.mime_type)):
-        await event.edit("`Balas Ke Audio Aja Ngentot..`")
+        await event.edit("`Balas Ke Audio Aja ya...`")
         
-    await event.edit("`sabar tot, giproses`")
+    await event.edit("`sabar tuan, lgi di proses`")
     d = os.path.join("resources/extras", "ul.mp3")
     await event.edit("`Mengunduh... File Besar Membutuhkan Waktu..`")
     await event.client.download_media(ureply, d)
@@ -31,7 +31,7 @@ async def _(event):
     if not (ureply and ("video" in ureply.document.mime_type)):
         await event.edit("`Reply To Gif/Video In which u want to add audio.`")
         return
-    xx = await event.edit("`sabar, giproses...`")
+    xx = await event.edit("`sabar tuan, lagi di proses...`")
     ultt = await ureply.download_media()
     ls = os.listdir("resources/extras")
     z = "ul.mp3"

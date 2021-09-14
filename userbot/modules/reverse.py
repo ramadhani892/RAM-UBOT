@@ -35,7 +35,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`Lord Mohon Balas Ke Sticker`")
+        await img.edit("`tuan, Mohon Balas Ke Sticker`")
         return
 
     if photo:
@@ -80,7 +80,7 @@ async def okgoogle(img):
         if guess and imgspage:
             await img.edit(f"[{guess}]({fetchUrl})\n\n`Sedang Mencari Gambar Yang Mirip...`")
         else:
-            await img.edit("`Maaf Lord, Saya Tidak Bisa Menemukan Apapun`")
+            await img.edit("`Maaf tuan, Saya Tidak Bisa Menemukan Apapun`")
             return
 
         if img.pattern_match.group(1):

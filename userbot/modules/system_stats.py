@@ -1,4 +1,4 @@
-# System Stats RAM-UBOT
+# System Stats KIM-UBOT
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**RAM-UBOT Versi:** \n "
+            "**☛**KIM-UBOT Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -224,24 +224,24 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`Perkenalan diri...`")
     await asyncio.sleep(1)
-    await alive.edit("⭐")
+    await alive.edit("🤴")
     await asyncio.sleep(3)
     output = (
         f"**     ۩  ⬚⃝⃟    {REPO_NAME} ⬚⃝⃟     ۩ ** \n\n"
         f"\n__**{RAM_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"**🤑 TUAN** \n"
+        f"**🤴 TUAN MUDA** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**😋 Username** \n"
+        f"**📲 Username** \n"
         f" ➥ `@{user.username}` \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        f"┣• `🙈 Telethon :`Ver {version.__version__} \n"
-        f"┣• `🥴 Python   :`Ver {python_version()} \n"
-        f"┣• `🤖 Bot Ver  :`7.0 \n"
-        f"┣• `✨ Modules  :`{len(modules)} \n"
+        f"┣• `☎️ Telethon :`Ver {version.__version__} \n"
+        f"┣• `🐉 Python   :`Ver {python_version()} \n"
+        f"┣• `🤖 Bot Ver  :`IOS 12.0` \n"
+        f"┣• `🌾 Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
+        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/abdurrohimbontro/KIM-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -269,16 +269,16 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"       **♕  ⭐️𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐️  ♕** \n"
+        f"       **♕  🤴𝐊𝐈𝐌-𝐔𝐁𝐎𝐓🤴  ♕** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **Tuan**             ➥ `{DEFAULTUSER}` \n"
+        f"❃ **Tuan muda**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
         f"❃ **Telethon**       ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**          ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**      ➥ `7.0` \n"
+        f"❃ **Versi Bot**      ➥ `IOS 12.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/abdurrohimbontro/KIM-UBOT) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -304,27 +304,27 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`Perkenalan diri...⭐`")
+    await alive.edit("`Perkenalan diri...🤴`")
     await asyncio.sleep(1)
-    await alive.edit("✨")
+    await alive.edit("🌾")
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**          ⭐️𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐️** \n"
+        f"**          🤴𝐊𝐈𝐌-𝐔𝐁𝐎𝐓🤴** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
+        f"┣|• `🤴 tuan muda  :`{DEFAULTUSER} \n"
         f"┣|• `💳 Username :`@{user.username} \n"
-        f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
+        f"┣|• `☎️ Telethon :`Ver {version.__version__} \n"
         f"┣|• `🐉 Python   :`Ver {python_version()} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `Branch      :`RAM-UBOT \n"
-        f"┣|• `Bot Ver     :`7.0 \n"
+        f"┣|• `Branch      :`𝐊𝐈𝐌-𝐔𝐁𝐎𝐓 \n"
+        f"┣|• `Bot Ver     :`IOS 12.0 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+        f"[{REPO_NAME}](https://github.com/abdurrohimbontro/KIM-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -335,7 +335,7 @@ async def amireallyalive(alive):
             await msg.delete()
         except BaseException:
             await alive.edit(
-                output + "\n\n *`Logo Yang Disediakan Tidak Valid."
+                output + "\n\n *`maaf,Logo Yang Disediakan Tidak Valid."
                 "\nPastikan Tautan Yang Anda Gunakan Valid`"
             )
             await asyncio.sleep(100)

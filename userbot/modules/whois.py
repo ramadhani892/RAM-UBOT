@@ -21,7 +21,7 @@ from userbot.events import register
 async def who(event):
 
     await event.edit(
-        "`Mengambil Informasi Pengguna Ini...`")
+        "`Mengambil Info Pengguna Ini...`")
 
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
@@ -31,7 +31,7 @@ async def who(event):
     try:
         photo, caption = await fetch_info(replied_user, event)
     except AttributeError:
-        return event.edit("`Saya Tidak Mendapatkan Informasi Apapun.`")
+        return event.edit("`aku Ra entok inpo opo opo.`")
 
     message_id_to_reply = event.message.reply_to_msg_id
 
@@ -107,7 +107,7 @@ async def fetch_info(replied_user, event):
     try:
         dc_id, location = get_input_location(replied_user.profile_photo)
     except Exception as e:
-        dc_id = "Tidak Dapat Mengambil DC ID!"
+        dc_id = "Ra iso njipok DC ID!"
         str(e)
     common_chat = replied_user.common_chats_count
     username = replied_user.user.username
@@ -120,12 +120,12 @@ async def fetch_info(replied_user, event):
                                                       str(user_id) + ".jpg",
                                                       download_big=True)
     first_name = first_name.replace(
-        "\u2060", "") if first_name else ("Tidak Ada Nama Depan")
+        "\u2060", "") if first_name else ("dia terlantar,Tidak Ada Nama Depan")
     last_name = last_name.replace(
         "\u2060", "") if last_name else ("Tidak Ada Nama Belakang")
     username = "@{}".format(username) if username else (
-        "Tidak Menggunakan Username")
-    user_bio = "Tidak Punya Bio" if not user_bio else user_bio
+        "Cah alasan ,Tidak Menggunakan Username")
+    user_bio = "orngnya ga jelas ,Tidak Punya Bio" if not user_bio else user_bio
 
     caption = "<b>INFORMASI PENGGUNA:</b>\n\n"
     caption += f"Nama Depan: {first_name}\n"

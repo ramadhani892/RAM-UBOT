@@ -36,18 +36,18 @@ async def _(event):
         animation_chars = [
 
             "Kontolll",
-            "Lo anak kontolll",
-            "Dibikin dari kontoll",
-            "Muka lo persis kontolll",
-            "Dasar anak NGONTOLLL!!!",
-            "Nolep kontoll",
-            "Ngerusuh kontoll",
-            "Bener bener kontoll",
-            "Padahal Lo gapunya kontolll",
-            "Karna Lo ga punya kontoll",
-            "Mending lo oprasi kontoll",
-            "Biar lo punya kontoll",
-            "Kasian cacat gada kontoll"
+            "JANGAN BILANG kontolll",
+            "NGGA BAIK BILANG  kontoll",
+            "APALAGI NGATAIN kontoll",
+            "Dia bukan KONTOLLL!!!",
+            "Nulis kontoll",
+            "Main kontoll juga ga  boleh",
+            "Kata kontoll ga salah kok",
+            "Padahal Lo punya kontolll",
+            "Yabg cowo mksdnya, Lo punya kontoll kan",
+            "Jangan sampe lo oprasi kontoll ya",
+            "Eh kok bahas kontoll",
+            "Kasian ya si kontoll"
         ]
 
         for i in animation_ttl:
@@ -172,7 +172,7 @@ async def _(event):
             "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
             "🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴",
             "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
-            "OUB **Police is Chasing you now**"
+            "OUB ** 👮  mengejarmu sekarang **"
 
         ]
 
@@ -211,7 +211,7 @@ async def _(event):
             "------------------>",
             "------>;(^。^)ノ",
             "(￣ー￣) MENINGGOY",
-            "**Mati Lu Anjing 😵😵**",
+            "**NAH NAH MATI KAN  😵😵**",
         ]
 
         for i in animation_ttl:
@@ -232,24 +232,24 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "Macos":
+    if input_str == "malld":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "`Connecting To Hackintosh...`",
-            "`Initiating Hackintosh Login.`",
-            "`Loading Hackintosh... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Loading Hackintosh... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Loading Hackintosh... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Loading Hackintosh... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Loading Hackintosh... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Loading Hackintosh... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Loading Hackintosh... 84%\n█████████████████████▒▒▒▒ `",
+            "`mencari celah untuk hacking...`",
+            "`Initialiting Login ke server.`",
+            "`Loading data Whatsa...  0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Loading data instag... 04%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Loading data facebo... 08%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Loading data kontak... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Loading data telegr... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Loading data you tu... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Loading data galeri... 84%\n█████████████████████▒▒▒▒ `",
             "`Loading Hackintosh... 100%\n█████████████████████████ `",
-            "`Welcome...\n\nStock OS: Symbian OS\nCurrent OS: Hackintosh`\n\n**My PC Specs:**\n\n **CPU:** __2.9GHz Intel Core i9-8950HK (hexa-core, 12MB cache, up to 4.8GHz)__\n\n**Graphics:** __Nvidia GeForce GTX 1080 OC (8GB GDDR5X)__\n\n**RAM:** __32GB DDR4 (2,666MHz)__\n\n**Screen:** __17.3-inch, QHD (2,560 x 1,440) 120Hz G-Sync__\n\n**Storage:** __512GB PCIe SSD, 1TB HDD (7,200 rpm)__\n\n**Ports:** __2 x USB 3.0, 1 x USB-C 3.0, 1 x USB-C (Thunderbolt 3), HDMI, mini DisplayPort, Ethernet, headphone jack, microphone jack__\n\n**Connectivity:** __Killer 1550 802.11ac Wi-Fi, Bluetooth 5.0__\n\n**Camera:** __Alienware FHD camera, Tobii IR Eye-tracking with Windows Hello__\n\n**Size:** __16.7 x 13.1 x 1.18 inches (42.4 x 33.2 x 2.99cm; W x D x H)__"
-        ]
+            "`BERHASIL MENCURI DATA DARI TARGET,DATA TELAH TERSIPAN DI PERANGKAT`",
+                    ]
 
         for i in animation_ttl:
 
@@ -465,21 +465,21 @@ async def _(event):
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
-        await event.edit("Hai Goblok")
+        await event.edit("Hai uhtea")
         await asyncio.sleep(1)
         await event.edit("Aku")
         await asyncio.sleep(2)
-        await event.edit("Gangstar")
+        await event.edit("mulai")
         await asyncio.sleep(1)
         await event.edit("Sekarang ")
         await asyncio.sleep(1)
-        await event.edit("KAMU ADALAH BABU")
+        await event.edit("KAMU ADALAH UHTEAKU")
         await asyncio.sleep(3)
-        await event.edit("Ku bunuh kau")
+        await event.edit("lopyu uhtea")
         await asyncio.sleep(2)
-        await event.edit("😎😎😎")
+        await event.edit("😊😚😘")
         await asyncio.sleep(1)
-        await event.edit("Mau gak gua bunuh? Woi kontol 😎😎😎")
+        await event.edit("Mau gak jadi pacarku? Bismillah uhtea 💝💘💝")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -551,7 +551,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](t.me/teman_random)"]
+            "[👉🔴👈](t.me/roommutualan)"]
 
         for i in animation_ttl:
 
@@ -1276,21 +1276,21 @@ async def _(event):
         animation_chars = [
             "`Menyambungkan telfon ke telegram...`",
             "`telfon tersambung.`",
-            "`Telegram: Hallo anjing,ada afa menelfon ku?`",
-            f"`Me: Saya `@{DEFAULTUSER},`Ingin memberitahukan bahwa disini ada babu`",
-            "`Babu nya ngeselin`",
-            "`Aduh pokok nya babu nya goblok`",
+            "`Telegram: Hallo paswordnya ,ada afa menelfon ku?`",
+            f"`Me: Saya `@{DEFAULTUSER},`Ingin memberitahukan bahwa disini ada jodohku`",
+            "`dia nya cantik`",
+            "`Aduh pokok nya cantik nya kebangetan`",
             "`telfon privasi terhubung...`",
-            "`Me: Hello Pulici saya ingin melaporkan bahwa disini ada babu`",
+            "`Me: Hello Pulici saya ingin melaporkan bahwa disini jodohku belom tidur`",
             "`Pulici: Siapa ini?`",
-            f"`Me: Saya @{DEFAULTUSER} Goblok bgt pulici ",
-            "`Pulici: Oo iyah tenang biar saya urus babunya`",
-            "`Me: Asiappp Makasih pulici.`",
-            "`Pulici: Iya sama sama,telfon saya lagi nanti kalo ada babu`",
-            "`Me: Iya pulici, Saya juga lagi gabut aja nelpon anda`",
-            "`Pulici: oooooasuuuuuu GOBLOK`",
-            "`Me: Awowkwokwkkw Pulici nya goblok`",
-            "`Pulici: Dah lah anying Gajelas`",
+            f"`Me: Saya @{DEFAULTUSER} tangkap dia Pak kalo ga tidur ",
+            "`Pulici: Oo iyah tenang biar saya urus dianya`",
+            "`Me: Makasih pulici.`",
+            "`Pulici: Iya sama sama,telfon saya lagi nanti kalo dia ga tidur`",
+            "`Me: Iya Pak pulici, assalamualaikum`",
+            "`Pulici: Waalaikunlmdalam`",
+            "`Me: bye pak`",
+            "`Pulici: iy, bye`",
             "`Telpon Nya terputus.....`"]
 
         for i in animation_ttl:
@@ -2728,29 +2728,29 @@ async def _(event):
     if (x == 1):
         await event.edit("**Halo pulici**")
     if (x == 2):
-        await event.edit("**Disini ada babu ngerusuh**")
+        await event.edit("**Disini pacarku belom tidur**")
     if (x == 3):
         await event.edit("**Tolong yah pulici**")
     if (x == 4):
-        await event.edit("**Penjara babu ini,dia gila**")
+        await event.edit("**TOLONG TANGKEP DIA YA **")
     if (x == 5):
-        await event.edit("*ORTU NYA JUGA DAH GANGURUS**")
+        await event.edit("*TANGKEP KALO DIA GA MAU BOBO**")
     if (x == 6):
-        await event.edit("**KARNA DIA BEBAN ORTU**")
+        await event.edit("**AWAS KALO GA TIDUR DI TANGKEP PAK PULICI**")
     if (x == 7):
-        await event.edit("**MENDING PENJARA DIA!!**")
+        await event.edit("**KALO KAMU DI TANGKEP GIMANA!!**")
     if (x == 8):
-        await event.edit("**Bener bener gaguna**")
+        await event.edit("**AKU SAMA SIAPA**")
     if (x == 9):
         await event.edit("**Udah gabut nya jelek**")
     if (x == 10):
-        await event.edit("*Tukang ngerusuh**")
+        await event.edit("*MENDING TIDUR**")
     if (x == 11):
-        await event.edit("**Mungkin otak nya dah gawaras**")
+        await event.edit("**BIAR PAK PULICI GA KACIAN**")
     if (x == 12):
-        await event.edit("**Atau sikis nya dah kena**")
+        await event.edit("**DHLH CAPE **")
     if (x == 13):
-        await event.edit("**ATAU MUNGKIN EFEK BROKEN HOME**")
+        await event.edit("**ATAU MUNGKIN EFEK BROKEN HEART**")
     if (x == 14):
         await event.edit("**BROKEN HEART**")
     if (x == 15):
@@ -2758,7 +2758,7 @@ async def _(event):
     if (x == 16):
         await event.edit("**KASIAN KAN DIA**")
     if (x == 17):
-        await event.edit("**MENDING DI PENJARA**")
+        await event.edit("** DI apain enaknya**")
     if (x == 18):
         await event.edit("**AYO PULICI**")
     if (x == 19):

@@ -1,8 +1,8 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
-# Credits @keselekpermen69 / @Ultroid / @RAM-UBOT
-# Ported @MaafGausahSokap / JANGAN DI APUS BABI
+# Credits @keselekpermen69 / @Ultroid / @RAM-UBOT /@JOO-UBOT
+# Ported @MaafGausahSokap / @Joodck / JANGAN DI APUS BABI
 """Userbot initialization."""
 
 import os
@@ -108,9 +108,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/ramadhani892/RAM-UBOT")
+    "https://github.com/H3llnn/JOO-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "RAM-UBOT")
+    "UPSTREAM_REPO_BRANCH", "JOO-UBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -174,11 +174,11 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# Untuk Perintah .rambot (alive)
-RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
+# Untuk Perintah .joobot (alive)
+JOO_TEKS_KOSTUM = os.environ.get("JOO_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+REPO_NAME = os.environ.get("REPO_NAME") or "👶JOO-UBOT👶"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -197,7 +197,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "JOO-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -210,30 +210,30 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/35b090720284c42ee8071.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/5daa73aa6d1afbd1da353.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/35b090720284c42ee8071.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "👶"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/ootspambot"
+    "GROUP_LINK") or "t.me/hornyinakusayang"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/MaafGausahSokap"
+    "OWNER_BOT") or "t.me/Joodck"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "👶JOO-UBOT👶"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -275,7 +275,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║DAH AKTIF YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║👶JOO-UBOT Activate👶║```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -399,7 +399,7 @@ ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
 
-#Import Userbot - Ported by RAMADHANI892
+#Import Userbot - Ported by PAIJOO
 from userbot import (
     ALIVE_NAME
 )
@@ -464,7 +464,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Ram_ubot")
+                    results = await event.client.inline_query(tgbotusername, "@joo-ubot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -479,7 +479,7 @@ with bot:
                 )
 
 
-        ramlogo = HELP_LOGO
+        JOOlogo = HELP_LOGO
         plugins = CMD_HELP
         vr = BOT_VER
 
@@ -488,7 +488,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**RAM-UBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"Haloo cakep [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN  DI\n**JOO-UBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",

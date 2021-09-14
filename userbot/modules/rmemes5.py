@@ -31,25 +31,25 @@ async def koc(e):
         sleep(1)
         await e.edit("AKU 👉👈")
         sleep(1)
-        await e.edit("SANGE 👉👈 😘😘")
+        await e.edit("PENGEN PAP 👉👈 😘😘")
         sleep(1)
         await e.edit("💘💘💘💘")
         sleep(1)
         await e.edit("SAYANG")
         sleep(1)
-        await e.edit("AYO NGEWE🤭🤭")
+        await e.edit("AYO PAP E'EK🤭🤭")
         sleep(1)
         await e.edit("PLISS🥺🥺")
         sleep(1)
-        await e.edit("AKU SANGE😋😋")
+        await e.edit("YANG ADA CABENYA 😋😋")
         sleep(1)
         await e.edit("I LOVE YOUUUU")
         sleep(1)
-        await e.edit("AH AH AH BEIBB")
+        await e.edit("KWKWKWK BEIBB")
         sleep(1)
-        await e.edit("💦💦💦💦")
+        await e.edit("💩💩💩💩💩💩💩")
         sleep(1)
-        await e.edit("OH BABY")
+        await e.edit("BECANDA SAYANG")
         sleep(1)
         await e.edit("AKU SAYANG KAMU💞")
 
@@ -99,7 +99,7 @@ async def typewriter(typew):
     await typew.edit("`🏃           🥴`")
     await typew.edit("`🏃          🤡`")
     await typew.edit("`🏃         🤭`")
-    await typew.edit("`CAPE BANGET ANJING!!!`")
+    await typew.edit("`HADOH KESELE COOOK!!!`")
     sleep(1)
     await typew.edit("`🏃       🏃`")
     await typew.edit("`🏃      🤾`")
@@ -117,13 +117,13 @@ async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`Kawan kawan Aku mau cerita sedikit`")
         sleep(1)
-        await e.edit("`Jadi Hari ini Aku lagi stressss anjing `")
+        await e.edit("`Jadi Hari ini Aku lagi stressss `")
         sleep(1)
         await e.edit("`GARA GARA GUA LIAT GRUP RAME`")
         sleep(1)
         await e.edit("`GILIRAN GUA NGETIK SEKETIKA SEPI`")
         sleep(1)
-        await e.edit("`ANJING BANGET KAN YA`")
+        await e.edit("`ANYING BANGET KAN YA☹️`")
         sleep(1)
         await e.edit("`PADAHAL PAS GUA BLM DTG RAME BGT`")
         sleep(1)
@@ -412,7 +412,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang bagaimana bisa aku membenci Mu, I Love You 💞`"]
 
         for i in animation_ttl:
 
@@ -442,7 +442,7 @@ async def typewriter(typew):
     await typew.edit("`Assalamu'alaiku`")
     await typew.edit("`Assalamu'alaikum`")
     sleep(3)
-    await typew.edit("**YANG GA JAWAB, FIX ATHEISS!!**")
+    await typew.edit("**SALAM WAJIB DI JAWAB!!**")
    # Create by myself @ram-ubot
 
 @register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
@@ -458,9 +458,14 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("UDAH LAH ANJING,GAOSAH KAYA GTU")
     sleep(2)
-    await typew.edit("JAUHIN AJA AJG, BOCAH KYA DIA MAH")
+    await typew.edit("TAPU GPP LAH CINTA EMNG GITU")
     sleep(2)
-    await typew.edit("TINGGALIN AJA YA AJG!!!!")
+    await typew.edit("MUNGKIN ITU BENTUK PERJUANGANMU!!!!")
+    sleep(2)
+    await typew.edit("INGAT KATA D'MASIV:"JANGAN MENYERAH"")
+    sleep(2)
+    await typew.edit("TETEP SEMANGAT YA KAK GBLKNYA 😉😊")
+
     
     
 CMD_HELP.update({

@@ -69,10 +69,10 @@ async def locks(event):
         what = "Semuanya"
     else:
         if not input_str:
-            await event.edit("`APA YG MAU GUA KUNCI? MULUT OWNER KAH?`")
+            await event.edit("`APA YG MAU GUA KUNCI? Hati dia? Udh punya orang lain cok`")
             return
         else:
-            await event.edit(f"`LU MAU NGUNCI APAAN SI GOBLOK, KAGA NGARTI GUA BABI!` `{input_str}`")
+            await event.edit(f"`MAU NGUNCI APAAN SIH, NGOMONG DONG!` `{input_str}`")
             return
 
     lock_rights = ChatBannedRights(
@@ -92,10 +92,10 @@ async def locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=lock_rights))
-        await event.edit(f"`WAHAHAH GUA KUNCI {what} DULU YA MEMBER NGENTOT!!`")
+        await event.edit(f"`WAHAHAH GUA KUNCI {what} DULU YA MEMBER E'EK!!`")
     except BaseException as e:
         await event.edit(
-            f"`EMANG LU ADMIN SINI TOT? ?`\n**Kesalahan:** {str(e)}")
+            f"`EMANG LU ADMIN SINI ? ?`\n**Kesalahan:** {str(e)}")
         return
 
 
@@ -157,10 +157,10 @@ async def rem_locks(event):
         what = "Semuanya"
     else:
         if not input_str:
-            await event.edit("`APA YANG HARUS GUA BUKA?\nBAJU OWNER KAH??`")
+            await event.edit("`APA YANG HARUS GUA BUKA?\nBAJU SIAPA??`")
             return
         else:
-            await event.edit(f"`KUNCI YANG MAU LU BUKA, GA VALID, MENDING LU BUKA BAJU OWNER` `{input_str}`")
+            await event.edit(f"`KUNCI YANG MAU LU BUKA, GA VALID, MENDING SINI GW BUKA BAJU OWNER CEWE` `{input_str}`")
             return
 
     unlock_rights = ChatBannedRights(
@@ -180,10 +180,10 @@ async def rem_locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=unlock_rights))
-        await event.edit(f"`WOE MEMBER ANJING, DAH GUA BUKA {what} TUH, JANGAN RUSUH YA!`")
+        await event.edit(f"`WOE MEMBER E'EK, DAH GUA BUKA {what} TUH, JANGAN RUSUH YA!`")
     except BaseException as e:
         await event.edit(
-            f"`EMANG LU ADMIN SINI GOBLOK?`\n**Kesalahan:** {str(e)}")
+            f"`EMANG LU ADMIN SINI ?`\n**Kesalahan:** {str(e)}")
         return
 
 

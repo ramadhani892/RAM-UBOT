@@ -11,15 +11,15 @@ from userbot.events import register
 
 @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
 async def _(event):
-    await event.edit("`Proses Ngecek Limit akun, Gausah panik lah ngentot!...`")
+    await event.edit("`Proses Ngecek Limit akun, Gausah panik Tuan!...`")
     async with bot.conversation("@SpamBot") as conv:
-        try:
+        try: 
             response = conv.wait_event(
                 events.NewMessage(incoming=True, from_users=178220800)
             )
             await conv.send_message("/start")
             response = await response
-            await bot.send_read_acknowledge(conv.chat_id)
+            await bot.sen gad_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
             await event.edit("`Boss! Please Unblock @SpamBot`")
             return

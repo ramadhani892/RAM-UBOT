@@ -68,7 +68,7 @@ async def deepfryer(event):
     image = Image.open(image)
 
     # fry the image
-    await event.edit("`Gosongin Muka si Kontol...`")
+    await event.edit("`Gosongin Muka mantan...`")
     for _ in range(frycount):
         image = await deepfry(image)
 

@@ -31,15 +31,15 @@ from userbot.events import register
 
 # ====================== CONSTANT ===============================
 INVALID_MEDIA = "```Maaf Media Tidak Valid.```"
-PP_CHANGED = "```Foto Profil Telah Berubah Jadi Foto Bugil```"
-PP_TOO_SMOL = "```Gambar Terlalu Kecil, Mohon Gunakan Yang Lebih Besar.```"
+PP_CHANGED = "```Foto Profil Telah Berubah ,hah kek ultramen aja```"
+PP_TOO_SMOL = "```Gambar Terlalu Kecil, Mohon jangan pelit.```"
 PP_ERROR = "```Kegagalan Terjadi Saat Proses Gambar, Foto Profil Gagal Diubah.```"
 
 BIO_SUCCESS = "```Bio Anda Telah Berhasil Diubah.```"
 
-NAME_OK = "```Nama Anda Telah Berhasil Diubah.```"
+NAME_OK = "```nama anda telah berhasil di ubah, ws tak buburno abang.```"
 USERNAME_SUCCESS = "```Username Anda Sudah Diubah.```"
-USERNAME_TAKEN = "```Mohon Maaf, Username Itu Sudah Ada Yang Menggunakannya.```"
+USERNAME_TAKEN = "```Mohon Maaf, Username Itu Sudah Ada Yang Menggunakannya, aku bingong cok.```"
 # ===============================================================
 
 

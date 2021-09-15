@@ -2,7 +2,7 @@
 FROM xluxz/geezproject:buster
 # JOO-UBOT
 
-RUN git clone -b RAM-UBOT https://github.com/H3llnn/JOO-UBOT /root/userbot
+RUN git clone -b JOO-UBOT https://github.com/H3llnn/JOO-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot

@@ -75,7 +75,7 @@ async def add_new_filter(new_handler):
     elif new_handler.reply_to_msg_id and not string:
         rep_msg = await new_handler.get_reply_message()
         string = rep_msg.text
-    success = "`Berhasil Menambahkan Filter` **{}** `{}`."
+    success = "`alhamdulillah,Berhasil Menambahkan Filter` **{}** `{}`."
     if add_filter(str(new_handler.chat_id), keyword, string, msg_id) is True:
         await new_handler.edit(success.format(keyword, 'Disini'))
     else:
@@ -104,7 +104,7 @@ async def kick_marie_filter(event):
     bot_type = event.pattern_match.group(1).lower()
     if bot_type not in ["marie", "rose"]:
         return await event.edit("`Bot Itu Belum Didukung!`")
-    await event.edit("```Saya Akan Menghapus Semua Filter!```")
+    await event.edit("```Saya Akan Menghapus Semua Filter,mohon ijinya!```")
     await sleep(3)
     resp = await event.get_reply_message()
     filters = resp.text.split("-")[1:]
@@ -116,7 +116,7 @@ async def kick_marie_filter(event):
             await event.reply("/stop %s" % (i.strip()))
         await sleep(0.3)
     await event.respond(
-        "```Berhasil Menghapus Semua Filter Bot!```")
+        "```alhamdulillah,Berhasil Menghapus Semua Filter Bot!```")
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "Saya Membersihkan Semua Filter Bot Di " + str(event.chat_id))

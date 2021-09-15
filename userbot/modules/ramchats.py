@@ -120,12 +120,12 @@ async def kickme(leave):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ AKU PERGI YA NGENTOT, BABAY! \n"
+                     "╬═╬ AKU PERGI DULU YA SAYANG ! \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
     sleep(10)
-    await leave.edit(f"`{ALIVE_NAME}, Meninggalkan Group ini, Good bye evrybody`")
+    await leave.edit(f"`{ALIVE_NAME}, pergi karna dia ada yang lain , Good bye 😣`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -153,7 +153,7 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh Anda Telah Membisukan Obrolan !`")
+    await mute_e.edit("`Ssshssh Anda diem dulu syng , tuan Muda membisukan obrolan!`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
@@ -182,24 +182,24 @@ regexNinja = False
 
 @register(outgoing=True, pattern="^s/")
 async def sedNinja(event):
-    """Untuk Modul Regex-Ninja, Perintah Hapus Otomatis Yang Dimulai Dengans/"""
-    if regexNinja:
+    """Untuk Modul rikudou , Perintah Hapus Otomatis Yang Dimulai Dengans/"""
+    if rikudou:
         await sleep(.5)
         await event.delete()
 
 
-@register(outgoing=True, pattern="^.regexninja (on|off)$")
+@register(outgoing=True, pattern="^.rikudou (on|off)$")
 async def sedNinjaToggle(event):
-    """ Aktifkan Atau Nonaktifkan Modul Regex Ninja. """
+    """ Aktifkan Atau Nonaktifkan Modul Rikudou. """
     global regexNinja
     if event.pattern_match.group(1) == "on":
-        regexNinja = True
-        await event.edit("`Berhasil Mengaktifkan Mode Regex Ninja.`")
+        rikudou = True
+        await event.edit("`Berhasil Mengaktifkan Mode rikudou.`")
         await sleep(1)
         await event.delete()
     elif event.pattern_match.group(1) == "off":
-        regexNinja = False
-        await event.edit("`Berhasil Menonaktifkan Mode Regex Ninja.`")
+        rikudou = False
+        await event.edit("`Berhasil Menonaktifkan Mode Rikudou.`")
         await sleep(1)
         await event.delete()
 
@@ -457,9 +457,9 @@ CMD_HELP.update({
 \n↳ : Memungkinkan Anda membisukan obrolan apa pun.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.link` <username/userid>: <opsional teks> (atau) balas pesan seseorang dengan .link <teks opsional>\
 \n↳ : Buat tautan permanen ke profil pengguna dengan teks ubahsuaian opsional.\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.regexninja` enable/disabled\
-\n↳ : Mengaktifkan/menonaktifkan modul ninja regex secara global.\
-\nModul Regex Ninja membantu menghapus pesan pemicu bot regex.\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.rikudou` enable/disabled\
+\n↳ : Mengaktifkan/menonaktifkan modul rikudou secara global.\
+\nModul rikudou membantu menghapus pesan pemicu  rinegan.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.chatinfo [opsional: <reply/tag/chat id/invite link>]`\
 \n↳ : Mendapatkan info obrolan. Beberapa info mungkin dibatasi karena izin yang hilang..\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.invite` \

@@ -1,5 +1,5 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
-# RAM-UBOT MINTA
+# KIM-UBOT MINTA
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License
 """ Userbot module containing commands related to the \
@@ -49,8 +49,8 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`Connecting to server...`")
-    await pong.edit("☠️")
+    await pong.edit("menghubngkan ke server🇮🇩...`")
+    await pong.edit("🌱")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -70,7 +70,7 @@ async def redis(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KONTOOLLLL!!**\n**KEKUATAN KONTOL** : `%sms`\n**DURASI KONTOL** : `{uptime}🕛`" % (duration))
+    await pong.edit(f"**KIM**\n**KEKUATAN RINEGAN** : `%sms`\n**DURASI AKTIF** : `{uptime}🕛`" % (duration))
 
 
 @register(outgoing=True, pattern="^Ping$")
@@ -85,7 +85,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"{REPO_NAME}!!\n"
-                    f"OWNER : {ALIVE_NAME}\n `%sms`\n"
+                    f" SULTAN : {ALIVE_NAME}\n `%sms`\n"
                     f"`{uptime}` \n" % (duration))
 
 
@@ -118,7 +118,7 @@ async def speedtst(spd):
 
 def speed_convert(size):
     """
-    Hi human, you can't read bytes?
+    Hai, dapatkah anda membaca byte?
     """
     power = 2**10
     zero = 0
@@ -135,11 +135,11 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("PONG")
     await asyncio.sleep(1)
-    await pong.edit("✨")
+    await pong.edit("✍️")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**Oᴡɴᴇʀ : {ALIVE_NAME}**\n`%sms`" % (duration))
+    await pong.edit(f"**S̳U̳L̳T̳A̳N̳ : {ALIVE_NAME}**\n`%sms`" % (duration))
 
 
 CMD_HELP.update({

@@ -210,7 +210,7 @@ async def trump(event):
         else:
             await event.edit("`Kirim Beberapa Text untuk membuat.`")
             return
-    await event.edit("`Membuat Kata kata dari Twitter Trump...`")
+    await event.edit("`Membuat Kata kata ...`")
     text = deEmojify(text)
     img = await trumptweet(text)
     await event.client.send_file(event.chat_id, img, reply_to=reply_to_id)

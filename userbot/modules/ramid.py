@@ -25,7 +25,7 @@ async def image_maker(event):
         font=font,
     )
     id_template.save("user_id.png")
-    await event.edit("`Membuat ID Card..`")
+    await event.edit("`membuat kartu ID..`")
     await event.client.send_message(
         event.chat_id,
         "Generated User ID",

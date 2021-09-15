@@ -79,8 +79,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [LANDAK 🦔](https://t.me/maafgausahsokap/)\
-        \nGroup [SPAM BOT](https://t.me/ootspambot/)",
+        caption="Created by [KIM 🤴](https://t.me/warga_pati/)\
+        \nGroup [room mutualan](https://t.me/roommutualann/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -145,8 +145,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="created by [LANDAK 🦔](https://t.me/maafgausahsokap/)\
-        \nGroup Support [Dawn Labs](https://t.me/ootspambot/)",
+        caption="created by [KIM 🤴](https://t.me/warga_pati/)\
+        \nGroup mutualan [room mutualan](https://t.me/roommutualann/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -211,8 +211,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created By [LANDAK 🦔](https://t.me/maafgausahsokap/)\
-        \nGroup Support [Spam](https://t.me/ootspambot/)",
+        caption="Created By [KIM 🤴](https://t.me/warga_pati/)\
+        \nGroup 2 [grup 2](https://t.me/crazy_people345/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -277,8 +277,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [LANDAK 🦔](https://t.me/maafgausahsokap/),\
-        \nGroup Support [Group Spam](https://t.me/ootspambot)",
+        caption="Created by [KIM 🤴](https://t.me/warga_pati/),\
+        \nGroup 1 [grup mutualan](https://t.me/roommutualann)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -343,8 +343,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [LANDAK 🦔](https://t.me/maafgausahsokap/),\
-        \nGroup Support [Spam BOT](https://t.me/ootspambot/)",
+        caption="Created by [KIM 🤴](https://t.me/warga_pati/),\
+        \nGroup random [crazy people](https://t.me/crazy_people345/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )

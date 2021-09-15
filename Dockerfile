@@ -4,7 +4,7 @@ FROM xluxz/geezproject:buster
 # Geez-project
 #yaudah iya
 
-RUN git clone -b KIM-UBOT https://github.com/abdurrohimbontro/KIM-UBOT /root/userbot
+RUN git clone -b KIM-UBOTS https://github.com/abdurrohimbontro/KIM-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot

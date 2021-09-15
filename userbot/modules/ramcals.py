@@ -2,7 +2,7 @@
 # Ported By Vcky @VckyouuBitch + @MaafGausahSokap
 # Copyright (c) 2021 Geez - Projects
 # Geez - Projects https://github.com/Vckyou/Geez-UserBot
-# RAM - UBOT https://github.com/ramadhani892/RAM-UBOT
+# KIM - UBOT https://github.com/abdurrohimbontro/KIM-UBOT
 # Ini Belum Ke Fix Ya Bg :')
 # Ambil aja gapapa tp Gaguna kaya hidup lu Woakkakaka
 
@@ -17,7 +17,7 @@ from telethon.tl.types import ChatAdminRights
 from userbot import CMD_HELP
 from userbot.events import register
 
-NO_ADMIN = "`LU BUKAN ADMIN NGENTOT!!`"
+NO_ADMIN = "`MAAF TUAN, ANDA BUKAN ADMIN!!`"
 
 
 async def get_call(event):
@@ -32,7 +32,7 @@ def user_list(l, n):
 
 
 @register(outgoing=True, pattern=r"^\.startvc$", groups_only=True)
-async def _(rambot):
+async def _(rambot): 
     chat = await rambot.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
@@ -65,7 +65,7 @@ async def _(rambot):
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
 async def _(rambot):
-    await rambot.edit("`Memulai Invite member group...`")
+    await rambot.edit("`Memulai nyolong member group...`")
     users = []
     z = 0
     async for x in rambot.client.iter_participants(rambot.chat_id):
@@ -78,7 +78,7 @@ async def _(rambot):
             z += 6
         except BaseException:
             pass
-    await rambot.edit(f"`Menginvite {z} Member`")
+    await rambot.edit(f"`menyolong {z} Member`")
 
 
 CMD_HELP.update(

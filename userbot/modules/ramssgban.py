@@ -31,7 +31,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("`Terjadi Kesalahan... Mohon Lapor Ke Grup` @GeezSupportGroup", str(err))
+            return await event.edit("`Terjadi Kesalahan... Mohon Lapor Ke Grup` @crazy_people345", str(err))
     return user_obj, extra
 
 
@@ -82,11 +82,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Memulai Proses Gban Si Ngentot!`")
+        dark = await dc.reply("`Memulai Proses Gban Si dia!`")
     else:
-        dark = await dc.edit("`Memproses Global Banned Si ngentot ini!!!`")
+        dark = await dc.edit("`Memproses Global Banned Si dia ini!!!`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`Global Banned Akan Segera Aktif, ngentot!!!`")
+    await dark.edit(f"`Global Banned Akan Segera Aktif, Tuan!!!`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -106,9 +106,9 @@ async def gben(userbot):
     except BaseException:
         return await dark.edit(f"`Terjadi Kesalahan`")
     if user:
-        if user.id == 1779447750:
+        if user.id == 1547381425:
             return await dark.edit(
-                f"`LU GABISA GBAN RAMA, DIA YANG BIKIN GUA NGENTOTTT!!!`"
+                f"`ANDA GABISA GBAN TUAN MUDA KIM, DIA ADALAH SULTANNN!!!`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -127,11 +127,11 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`Global Banned Aktif ya ngentott✅`")
+                await dark.edit(f"`Global Banned Aktif ya tuan✅`")
             except BaseException:
                 b += 1
     else:
-        await dark.edit(f"`Reply pesan dulu ngentot!!`")
+        await dark.edit(f"`Reply pesan dulu cooooook!!`")
     try:
         if gmute(user.id) is False:
             return await dark.edit(f"**Kesalahan! Pengguna Ini Sudah Kena Perintah Global Banned.**")
@@ -172,8 +172,8 @@ async def gunben(userbot):
     except BaseException:
         return await dark.edit("`Terjadi Kesalahan`")
     if user:
-        if user.id == 1779447750:
-            return await dark.edit("**LU GABISA BLACKLIST RAMA, DIA YG BIKIN GUA NGENTOT!!!**")
+        if user.id == 1547381425:
+            return await dark.edit("**LU GABISA BLACKLIST kim, DIA MAJIKANN GUA !!!**")
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
         except BaseException:

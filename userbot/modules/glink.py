@@ -30,7 +30,7 @@ async def remoteaccess(event):
         await event.client.send_message(chat_id, msg)
         await event.edit("Pesan Di Di Teruskan Ke Grup Tujuan`")
     except BaseException:
-        await event.edit("** Gabisa Tolol,Emang lu join grup nya TOD ? **")
+        await event.edit("** Gabisa maaaasss,Emang mass join grup nya  ? **")
 
 CMD_HELP.update({
         "grouplink": ".gsend\

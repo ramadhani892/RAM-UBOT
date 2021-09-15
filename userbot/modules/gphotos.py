@@ -76,7 +76,7 @@ async def create_token_file(token_file, event):
         await conv.send_message(
             "Pergi Ke "
             "Linknya Dan Ikuti "
-            f"Browser Anda Lord: {authorize_url} Dan "
+            f"Browser Anda tuan: {authorize_url} Dan "
             "Balas Kode"
         )
         response = await conv.wait_event(
@@ -136,7 +136,7 @@ async def upload_google_photos(event):
     token_file = TOKEN_FILE_NAME
     is_cred_exists, creds = await check_creds(token_file, event)
     if not is_cred_exists:
-        await event.edit("Pertama Jalankan <code>.gpsetup</code> Dulu Lord", parse_mode="html")
+        await event.edit("Pertama Jalankan <code>.gpsetup</code> Dulu TUAN", parse_mode="html")
 
     service = build("photoslibrary", "v1", http=creds.authorize(Http()))
 

@@ -112,9 +112,9 @@ async def incom_note(getnt):
         pass
 
 
-@register(outgoing=True, pattern="^.rmbotnotes (.*)")
+@register(outgoing=True, pattern="^.kimbotnotes (.*)")
 async def kick_marie_notes(kick):
-    """ Untuk perintah .rmbotnotes, memungkinkan Anda untuk menendang semua \
+    """ Untuk perintah .kimbotnotes, memungkinkan Anda untuk menendang semua \
         Catatan Marie (atau klonnya) dari obrolan """
     bot_type = kick.pattern_match.group(1).lower()
     if bot_type not in ["marie", "rose"]:
@@ -131,7 +131,7 @@ async def kick_marie_notes(kick):
             await kick.reply("/clear %s" % (i.strip()))
         await sleep(0.3)
     await kick.respond(
-        "```Berhasil membersihkan catatan bot yaay!```\n Beri aku kue!")
+        "```Berhasil membersihkan catatan bot yaay!```\n Beri aku susu!")
     if BOTLOG:
         await kick.client.send_message(
             BOTLOG_CHATID, "Saya membersihkan semua Catatan di " + str(kick.chat_id))
@@ -148,6 +148,6 @@ CMD_HELP.update({
 \nUsage: Gets all saved notes in a chat.\
 \n\n`.clear` <notename>\
 \nUsage: Deletes the specified note.\
-\n\n`.rmbotnotes` <marie/rose>\
+\n\n`.kimbotnotes` <marie/rose>\
 \nUsage: Removes all notes of admin bots (Currently supported: Marie, Rose and their clones.) in the chat."
 })

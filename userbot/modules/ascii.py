@@ -128,7 +128,7 @@ async def random_color():
 async def _(event):
     BG = event.pattern_match.group(1)
     if BG.isnumeric():
-        return await event.edit("`Mohon Masukkan Warna Bukan Angka Lord`")
+        return await event.edit("`Mohon Masukkan Warna Bukan Angka TUAN MUDA`")
     elif BG:
         global bground
         bground = BG

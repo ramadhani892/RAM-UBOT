@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ KIM-UBOTS ]
+    branches: [ RAM-UBOT ]
   pull_request:
-    branches: [ KIM-UBOTS ]
+    branches: [ RAM-UBOT ]
 
 jobs:
   build:

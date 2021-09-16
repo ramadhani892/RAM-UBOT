@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-[![Python package](https://github.com/abdurrohimbontro/KIM-UBOT/code/workflows/python-package.yml/badge.svg?branch=KIM-UBOTS&event=workflow_dispatch)](https://github.com/abdurrohimbontro/KIM-UBOT/code/workflows/python-package.yml)
+[![Python package](https://github.com/ramadhani892/RAM-UBOT/actions/workflows/python-package.yml/badge.svg?branch=RAM-UBOT&event=workflow_dispatch)](https://github.com/ramadhani892/RAM-UBOT/actions/workflows/python-package.yml)

@@ -393,7 +393,6 @@ def user_input():
                 "Spanish",
                 "Swedish",
                 "Turkish",
-                "Indonesian",
             ],
         )
         parser.add_argument(
@@ -730,7 +729,6 @@ class googleimagesdownload:
                 "Spanish": "lang_es",
                 "Swedish": "lang_sv",
                 "Turkish": "lang_tr",
-                "Indonesian": "lang_id",
             }
             lang_url = lang + lang_param[arguments["language"]]
         else:

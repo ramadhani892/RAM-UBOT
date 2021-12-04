@@ -1,4 +1,4 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5537105.png" width="320" height="211" alt="  RAM-UBOT" /></a>
+<a href="https://www.instagram.com/diiyyo2808?r=nametag"><img src="https://telegra.ph/file/8a694484cb7a4777d59db.jpg" width="320" height="211" alt="  EMON-UBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/ahgareng1996/EMON-UBOT/fork">
@@ -14,15 +14,15 @@
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
-## PEMILIK REPO
-* **BANG Landak** 🦔
-[<img src="https://media.giphy.com/media/o97Wl6qaoJytXcppUj/giphy.gif">](https://t.me/maafgausahsokap)
+## REPO FORK
+* **BERAK** 
+[<img src="https://telegra.ph/file/04101b8002b0f3a8b4801.jpg">](https://t.me/maafgausahsokap)
 
   
   
   
   
-# KALO FORK TUH KASIH BINTANG YA BEGO!
+# KALO FORK TUH KASIH BINTANG YA NJING!
 
 
 ### JOIN SINI TOT!!:

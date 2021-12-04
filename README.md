@@ -38,21 +38,21 @@
 <h3 align="center">REPO DAPET FORK DARI RAM UBOT  WKWKWK.</h3>
 <p align="center">&nbsp;</p>
 
-### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20RAM%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
+### <a href="https://t.me/kalongclub"><img src="https://img.shields.io/badge/GROUP%20KALONG%20CLUB%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
 
 
 ## Bagaimana Cara Deploy?
 
 
 * **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src="https://media.giphy.com/media/XD4BoRtenzE1eTIHzZ/giphy.gif">](https://t.me/UserbotChannel/36)
+[<img src="https://telegra.ph/file/5384dc9f78c8df80f3d6c.jpg">](https://t.me/UserbotChannel/36)
 
 ### AMBIL STRING DI BAWAH INI:
 
 ##
 [![RAM-UBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ramadhani892/RAM-UBOT-STRING)
 ##
-<a href="https://heroku.com/deploy?template=https://github.com/ahgareng1996/EMON-UBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20RAM%20UBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
+<a href="https://heroku.com/deploy?template=https://github.com/ahgareng1996/EMON-UBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20EMON%20UBOT%20DI%20HEROKU-Blue?style=flat&logo=Heroku" width="325" height="50.100" />
 
 <br>
 </p>

@@ -32,10 +32,10 @@
 
 ## Penjelasan:
 * **Repo FORK, TESS DOANG AWOKAWOK .** 
-[<img src="https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg">](https://t.me/ootspambott)
+[<img src="https://telegra.ph/file/843996dd8a889dd01109c.jpg">](https://t.me/ootspambott)
 
 
-<h3 align="center">REPO RAM UBOT DIBUAT KARNA YAA MEMANG PENGEN DIBUAT WKWKWK.</h3>
+<h3 align="center">REPO DAPET FORK DARI RAM UBOT  WKWKWK.</h3>
 <p align="center">&nbsp;</p>
 
 ### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20RAM%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />

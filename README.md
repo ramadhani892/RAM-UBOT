@@ -25,13 +25,13 @@
 # KALO FORK TUH KASIH BINTANG YA NJING!
 
 
-### JOIN SINI TOT!!:
+### JANGAN LUPA JOIN YA ANJING !!:
 
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel%20RAM%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/chipmunkchanel"><img src="https://img.shields.io/badge/Channel%20EMON%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/kalongclub"><img src="https://img.shields.io/badge/Join-KALONG%20CLUB-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Penjelasan:
-* **Repo Nya toxic, Gajelas pokoknya mah.** 
+* **Repo FORK, TESS DOANG AWOKAWOK .** 
 [<img src="https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg">](https://t.me/ootspambott)
 
 

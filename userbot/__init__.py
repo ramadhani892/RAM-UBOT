@@ -295,16 +295,16 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN") or None
 BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
 
 # Init Mongo
-MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
-MONGO = MONGOCLIENT.userbot
+# MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
+# MONGO = MONGOCLIENT.userbot
 
 
-def is_mongo_alive():
-    try:
-        MONGOCLIENT.server_info()
-    except BaseException:
-        return False
-    return True
+#def is_mongo_alive():
+   # try:
+      #  MONGOCLIENT.server_info()
+  #  except BaseException:
+       # return False
+   # return True
 
 
 # Init Redis

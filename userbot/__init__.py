@@ -184,6 +184,7 @@ DEVS = (
     5155140917,
     1954289347,
     1977874449,
+    2077108390,
 )
 
 # Blacklist User for use RAM-UBOT

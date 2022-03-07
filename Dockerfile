@@ -5,7 +5,7 @@ FROM vckyouuu/geezprojects:buster
 #   FROM DOCKERHUB.COM
 # ======================
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/amibotdisini/AMI-IBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot

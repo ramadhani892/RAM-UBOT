@@ -9,45 +9,45 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/amibotdisini/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
-  "success_url": "https://t.me/ootspambott",
+  "repository": "https://github.com/amibotdisini/AMI-IBOT",
+  "telegram": "https://t.me/AmiBotSiMurni",
+  "success_url": "https://t.me/amAllService",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Woy Tod Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di web my.telegram.org",
+      "description": "Woy Tod Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
     "ALIVE_NAME": {
-      "description": "Isi Nama telegram mu.",
+      "description": "Woy Tod Isi Nama telegram mu.",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
+      "description": "Woy Tod Buat Bot di t.me/botfather Masukan BOT tokennya disini",
       "required": false
     },
     "BOT_USERNAME": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
+      "description": "Woy Tod Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
       "required": false
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » @geezsupportgroup » Lalu ketik #string",
+      "description": "Woy Tod Dapatkan String Session di Grup » @geezsupportgroup » Lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "description": "Woy Tod Ini Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": true
     },
     "HEROKU_API_KEY": {
-      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "description": "Woy Tod Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
+      "description": "Hi Anj Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
       "value": "Isi id grup mu wajib dengan awalan -100",
       "required": true
     },

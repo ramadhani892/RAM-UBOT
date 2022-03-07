@@ -171,11 +171,11 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# Untuk Perintah .rambot (alive)
-RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
+# Untuk Perintah .amibot (alive)
+AMI_TEKS_KOSTUM = os.environ.get("AMI_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+REPO_NAME = os.environ.get("REPO_NAME") or "𖣘𝘼𝙈𝙄-𝙄𝘽𝙊𝙏𖣘"
 
 # Devs For gesss
 DEVG = [
@@ -204,7 +204,7 @@ DEVS = [
     2077108390, #kitaro
 ]
 
-# Blacklist User for use RAM-UBOT
+# Blacklist User for use AMI-IBOT
 while 0 < 6:
     _BLACKLIST = get(
         "https://raw.githubusercontent.com/ramadhani892/Ramblack/master/ramblacklist.json"
@@ -259,7 +259,7 @@ HELP_LOGO = os.environ.get(
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "𖣘"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -270,11 +270,11 @@ OWNER_BOT = os.environ.get(
     "OWNER_BOT") or "t.me/teervigroup"
 
 # Default botlog
-BOTLOG_MSG = os.environ.get("BOTLOG_MSG") or f"```💢 RAM - UBOT DAH AKTIF KONTOL!!! 💢\n\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Bot Of : {ALIVE_NAME}\n❍▹ BotVer : {BOT_VER}\n❍▹``` Branch : @RAM_UBOT\n\n╼┅━━━━━╍━━━━━┅╾\n\n```JANGAN KELUAR DARI GRUP```\n@RAMSUPPORTT\n ```BIAR TAU INFO, KONTOL!!!!!```"
+BOTLOG_MSG = os.environ.get("BOTLOG_MSG") or f"```🔥AMI-IBOT DAH AKTIF KONTOL!!!🔥\n\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Bot Of : {ALIVE_NAME}\n❍▹ BotVer : {BOT_VER}\n❍▹``` UserBot : @AmiUseriBot\n\n╼┅━━━━━╍━━━━━┅╾\n\n```JANGAN KELUAR DARI GRUP```\n@RAMSUPPORTT\n ```BIAR TAU INFO, KONTOL!!!!!```"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "𖣘𝘼𝙈𝙄-𝙄𝘽𝙊𝙏𖣘"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -434,7 +434,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**⭐RAM-UBOT⭐ v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**⚡️AMI-IBOT⚡️ v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -504,7 +504,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "< ̤< ̤", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"⭐ 𝗖𝗟𝗢𝗦𝗘 ⭐", data="{}_close({})".format(prefix, modulo_page)
+                    f"⚡️ 𝗖𝗟𝗢𝗦𝗘 ⚡️", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "> ̤> ̤", data="{}_next({})".format(prefix, modulo_page)
@@ -528,11 +528,11 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **⭐RAM-UBOT⭐** \n\n"
-                f"       __Thanks For Using me__\n\n"
-                f"✨ **Group Support :** [GEEZ](t.me/Geezsupport)\n"
-                f"✨ **Owner Repo :** [LANDAK](t.me/ramsupportt)\n"
-                f"✨ **Repo :** [RAM-UBOT](https://github.com/ramadhani892/RAM-BOT)\n"
+                f"**HAI BABI**, __I AM USING__  **⚡️AMI-IBOT⚡️** \n\n"
+                f"       __NGAPAIN LU DISINI OUH LUPA LU GAY KAN🗿CANDA__\n\n"
+                f"🔥 **Owner Cupu :** [AMIBOT](@AmiBaikDNoRoot)\n"
+                f"🔥 **Group Support :** [AMI-IBOT](t.me/DayByDayJuboIsDay)\n"
+                f"🔥 **Repo :** [AMI-IBOT](https://github.com/amibotdisini/RAM-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -541,8 +541,8 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="✨ REPO RAM-UBOT ✨",
-                            url="https://github.com/ramadhani892/RAM-UBOT",
+                            text="🔥 REPO AMI-IBOT 🔥",
+                            url="https://github.com/amibotdisini/RAM-UBOT",
                         )
                     ],
                     [
@@ -571,15 +571,15 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"**✨ inline RAM-UBOT ✨**\n\n⭐ **Owner** [LANDAK](t.me/maafgausahsokap)\n✨ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🔥 inline AMI-IBOT 🔥**\n\n⚡️ **Owner** [AMI](t.me/DayByDayJuboIsDay)\n⚡️ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository ✨RAM-UBOT✨",
+                    description="Repository 🔥RAM-UBOT🔥",
                     url="https://t.me/geezsupport",
-                    text="**⭐RAM-UBOT⭐**\n➖➖➖➖➖➖➖➖➖➖\n✨ **Owner :** [RAMA](https://t.me/ramsupportt)\n✨ **Support :** @GeezSupportt\n✨ **Repository :** [⭐RAM-UBOT⭐](https://github.com/ramadhani892/RAM-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**⚡️AMI-IBOT⚡️**\n➖➖➖➖➖➖➖➖➖➖\n🔥 **Owner :** [AMI](https://t.me/DayByDayJuboIsDay)\n🔥 **Support :** @amAllService\n🔥 **Repository :** [⚡️AMI-IBOT⚡️](https://github.com/amibotdisini/RAM-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/Ramsupportt"),
@@ -592,22 +592,22 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="⭐ RAM-UBOT ⭐",
-                    description="RAM-UBOT | Telethon",
+                    title="⚡️ AMI-IBOT ⚡️",
+                    description="AMI-IBOT | Telethon",
                     url="https://t.me/ramsupportt",
-                    text=f"**RAM-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n✨ **OWNER:** [RAMA](t.me/ramsupportt)\n✨ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @GeezProjectt\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**AMI-IBOT**\n➖➖➖➖➖➖➖➖➖➖\n🔥 **OWNER:** [AMI](t.me/DayByDayJuboIsDay)\n🔥 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @GeezProjectt\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/geezprojectt"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/ramadhani892/RAM-UBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/amibotdisini/RAM-UBOT"
                             ),
                         ],
                     ],
                     link_preview=False,
                 )
             await event.answer(
-                [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
+                [result], switch_pm="🗿 USERBOT PORTAL", switch_pm_param="start"
             )
 
         @tgbot.on(
@@ -634,24 +634,24 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐RAM-UBOT⭐\n\n✨**Owner : [RAMA](t.me/teervigroup)**\n\n✨ **Bot Ver :** `8.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"⚡️AMI-IBOT⚡️\n\n🔥**Owner : [AMI](t.me/DayByDayJuboIsDay)**\n\n🔥 **Bot Ver :** `8.0`\n🔥 **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⭐RAM-UBOT⭐ ",
+                    "Bantuan Dari ⚡️AMI-IBOT⚡️ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⭐RAM-UBOT⭐ ",
-                    text="""**⭐RAM-UBOT⭐\n\n LU BIKIN REPO SENDIRI LAH NGENTOD NIH CARANYA:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " ⚡️AMI-IBOT⚡️ ",
+                    text="""**⚡️AMI-IBOT⚡️\n\n LU BIKIN REPO SENDIRI LAH NGENTOD NIH CARANYA:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⭐RAM-UBOT⭐",
-                                "https://github.com/ramadhani892/RAM-UBOT"),
+                                "⚡️AMI-IBOT⚡️",
+                                "https://github.com/amibotdisini/RAM-UBOT"),
                             custom.Button.url(
                                 "OWNER",
                                 "t.me/ramsupportt")]],
@@ -673,7 +673,7 @@ with bot:
                     current_page_number + 1, dugmeler, "helpme")
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"🚫!WOY NGENTOD!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -688,10 +688,10 @@ with bot:
                     link_preview=True,
                     buttons=[
                         [
-                            Button.url("✨ Channel Support ✨",
-                                       "t.me/geezprojectt"),
-                            Button.url("⭐ Group support ⭐",
-                                       "t.me/ramsupportt")],
+                            Button.url("🔥 Channel Support 🔥",
+                                       "t.me/amAllService"),
+                            Button.url("⚡️ Group support ⚡️",
+                                       "t.me/DayByDayJuboIsDay")],
                         [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
                             "Close", b"close")],
@@ -720,7 +720,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"🚫!WOY NGENTOD!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -752,7 +752,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"🚫!WOY NGENTOD!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 

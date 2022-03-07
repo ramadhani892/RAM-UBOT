@@ -39,11 +39,11 @@ async def autobot():
         BOTLOG_CHATID, "**GUA LAGI BIKIN BOT ASISSTANT DI @BOTFATHER YA NGENTOD, SABAR DULU LU, KALO GA SABAR MATI AJA NYUSUL BAPAK LO**"
     )
     who = await bot.get_me()
-    name = who.first_name + " Assistant RAM-UBOT"
+    name = who.first_name + " Assistant AMI-IBOT"
     if who.username:
-        username = who.username + "_ubot"
+        username = who.username + "_ibot"
     else:
-        username = "ram" + (str(who.id))[5:] + "ubot"
+        username = "ami" + (str(who.id))[5:] + "ibot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -92,7 +92,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "userbot/utils/styles/RAMUBOT.jpg")
+            await bot.send_file(bf, "userbot/utils/styles/AMIIBOT.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -105,7 +105,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @TEERVIgroup ✨"
+                bf, f"𖣘 Owner ~ {who.first_name} 𖣘\n\n𖣘 Powered By ~ @TEERVIgroup 𖣘"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -134,7 +134,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "userbot/utils/styles/RAMUBOT.jpg")
+        await bot.send_file(bf, "userbot/utils/styles/AMIIBOT.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -147,7 +147,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @TEERVIgroup ✨"
+            bf, f"𖣘 Owner ~ {who.first_name} 𖣘\n\n𖣘 Powered By ~ @TEERVIgroup 𖣘"
         )
         await bot.send_message(
             BOTLOG_CHATID,

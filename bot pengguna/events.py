@@ -194,8 +194,8 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**✨ RAM-UBOT LAPORAN EROR  ✨**\n\n"
-                    link = "[Group Support](https://t.me/ramsupportt)"
+                    text = "**🎭 SENSI-UBOT LAPORAN EROR  🎭**\n\n"
+                    link = "[Group Support](https://t.me/virtualizem)"
                     text += "Jika mau, Anda bisa melaporkan error ini, "
                     text += f"Cukup forward saja pesan ini ke {link}.\n\n"
 

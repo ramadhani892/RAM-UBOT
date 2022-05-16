@@ -36,6 +36,6 @@ kickstart_pub() {
     "Branch <code>${PARSE_BRANCH}</code>" \
     "Commit Point <code>${COMMIT_POINT}</code>" \
     " " \
-    "<b>Github Link: </b> https://github.com/ramadhani892/RAM-UBOT/commit/${COMMIT_HASH}"  
+    "<b>Github Link: </b> https://github.com/sensiherme/SENSI-UBOT/commit/${COMMIT_HASH}"  
 fi
 }

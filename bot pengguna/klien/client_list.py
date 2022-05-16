@@ -10,29 +10,29 @@ async def clients_list(SUDO_USERS, bot, RAM2, RAM3, RAM4, RAM5):
     user_ids.append(main_id.id)
 
     try:
-        if RAM2 is not None:
-            id2 = await RAM2.get_me()
+        if SEN2 is not None:
+            id2 = await SEN2.get_me()
             user_ids.append(id2.id)
     except BaseException:
         pass
 
     try:
-        if RAM3 is not None:
-            id3 = await RAM3.get_me()
+        if SEN3 is not None:
+            id3 = await SEN3.get_me()
             user_ids.append(id3.id)
     except BaseException:
         pass
 
     try:
-        if RAM4 is not None:
-            id4 = await RAM4.get_me()
+        if SEN4 is not None:
+            id4 = await SEN4.get_me()
             user_ids.append(id4.id)
     except BaseException:
         pass
 
     try:
-        if RAM5 is not None:
-            id5 = await RAM5.get_me()
+        if SEN5 is not None:
+            id5 = await SEN5.get_me()
             user_ids.append(id5.id)
     except BaseException:
         pass
@@ -53,5 +53,5 @@ async def client_id(event, botid=None):
         uid = telethon.utils.get_peer_id(client)
         OWNER_ID = uid
         RAM_USER = client.first_name
-    ram_mention = f"[{RAM_USER}](tg://user?id={OWNER_ID})"
-    return OWNER_ID, RAM_USER, ram_mention
+    sen_mention = f"[{SEN_USER}](tg://user?id={OWNER_ID})"
+    return OWNER_ID, SEN_USER, sen_mention

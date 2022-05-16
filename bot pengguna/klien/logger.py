@@ -4,11 +4,11 @@ from telethon.tl.functions.channels import EditAdminRequest, InviteToChannelRequ
 from telethon.tl.types import ChatAdminRights
 
 from userbot import BOTLOG_CHATID, BOTLOG_MSG as star
-from userbot import RAM2, RAM3, RAM4, RAM5, bot
+from userbot import SEN2, SEN3, SEN4, SEN5, bot
 
 
 
-async def ram_ubot_on():
+async def sensi_ubot_on():
     new_rights = ChatAdminRights(
         add_admins=True,
         invite_users=True,
@@ -21,7 +21,7 @@ async def ram_ubot_on():
     try:
         if bot and tgbot:
             RamUbot = await tgbot.get_me()
-            BOT_USERNAME = RamUbot.username
+            BOT_USERNAME = SensiUbot.username
             await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [BOT_USERNAME]))
             await asyncio.sleep(3)
     except BaseException:
@@ -29,7 +29,7 @@ async def ram_ubot_on():
     try:
         if bot and tgbot:
             RamUbot = await tgbot.get_me()
-            BOT_USERNAME = RamUbot.username
+            BOT_USERNAME = SensiUbot.username
             await bot(EditAdminRequest(BOTLOG_CHATID, BOT_USERNAME, new_rights, "BOT"))
             await asyncio.sleep(3)
     except BaseException:
@@ -46,7 +46,7 @@ async def ram_ubot_on():
     try:
         if RAM2:
             if BOTLOG_CHATID != 0:
-                await RAM2.send_message(
+                await SEN2.send_message(
                     BOTLOG_CHATID,
                     f"{star}",
                 )
@@ -55,7 +55,7 @@ async def ram_ubot_on():
     try:
         if RAM3:
             if BOTLOG_CHATID != 0:
-                await RAM3.send_message(
+                await SEN3.send_message(
                     BOTLOG_CHATID,
                     f"{star}",
                 )
@@ -64,7 +64,7 @@ async def ram_ubot_on():
     try:
         if RAM4:
             if BOTLOG_CHATID != 0:
-                await RAM4.send_message(
+                await SEN4.send_message(
                     BOTLOG_CHATID,
                     f"{star}",
                 )
@@ -73,7 +73,7 @@ async def ram_ubot_on():
     try:
         if RAM5:
             if BOTLOG_CHATID != 0:
-                await RAM5.send_message(
+                await SEN5.send_message(
                     BOTLOG_CHATID,
                     f"{star}",
                 )

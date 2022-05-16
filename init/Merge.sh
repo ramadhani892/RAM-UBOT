@@ -22,4 +22,4 @@ git fetch
 git checkout staging
 git pull origin staging
 git push --force origin staging:sql-extended
-tg_sendinfo "<code>I have merged all commits from staging into RAM-UBOT</code>"
+tg_sendinfo "<code>I have merged all commits from staging into SENSI-UBOT</code>"

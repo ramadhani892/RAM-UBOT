@@ -215,10 +215,10 @@ RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "Hey bro, I am Userbot."
 DEFAULT = list(map(int, b64decode("MTgyNjY0Mzk3Mg==").split()))
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+REPO_NAME = os.environ.get("REPO_NAME") or "🎭 𝗦𝗘𝗡𝗦𝗜-𝗨𝗕𝗢𝗧 🎭"
 
 # Default botlog
-BOTLOG_MSG = os.environ.get("BOTLOG_MSG") or f"```💢 RAM - UBOT DAH AKTIF KONTOL!!! 💢```"
+BOTLOG_MSG = os.environ.get("BOTLOG_MSG") or f"```🎃 SENSI - UBOT DAH AKTIF SAYANG!!! 🎃```"
 
 
 # Devg For gesss
@@ -242,7 +242,7 @@ DEVS = [
     2099641918, #tod
 ]
 
-# Blacklist User for use RAM-UBOT
+# Blacklist User for use SENSI-UBOT
 while 0 < 6:
     _BLACKLIST = get(
         "https://raw.githubusercontent.com/ramadhani892/Ramblack/master/ramblacklist.json"
@@ -258,7 +258,7 @@ while 0 < 6:
 del _BLACKLIST
 
 # Default .alive Name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Ram-ubot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "SENSI-ubot")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -274,7 +274,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "SENSI-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "9.2.5")
@@ -294,7 +294,7 @@ HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/35fad21fce80bcf7ee128.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ndraasan"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
@@ -311,11 +311,11 @@ QUEUE_PIC = (
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/ramsupportt"
+    "GROUP_LINK") or "t.me/virtualizem"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/teervigroup"
+    "OWNER_BOT") or "t.me/indraudah"
 
 # CH sfs bot
 CH_SFS = os.environ.get("CH_SFS") or "t.me/userbotCh"
@@ -394,7 +394,7 @@ for binary, path in binaries.items():
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "RamUbot"
+    session = "SensiUbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -495,7 +495,7 @@ ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
 
-#Import Userbot - Ported by RAMADHANI892
+#Import Userbot - Ported by SENSIUSERBOT
 from userbot import (
     ALIVE_NAME
 )
@@ -507,7 +507,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**RAM-UBOT v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**SENSI-UBOT v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -589,11 +589,11 @@ with bot:
 
 with bot:
     try:
-        bot(Y("@ramsupportt"))
-        bot(Y("@UserbotCh"))
-        bot(Y("@luc0de"))
-        bot(Y("@GeezSupport"))
-        bot(Y("@TRVgroup"))
+        bot(Y("@virtualizem"))
+        bot(Y("@kata2in"))
+        bot(Y("@kata2in"))
+        bot(Y("@virtualizem"))
+        bot(Y("@kata2in"))
     except BaseException:
         pass
     try:
@@ -685,7 +685,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"**✨ RAM - UBOT MENU ✨**\n\n•  **Owner** [{user.first_name}](tg://user?id={user.id})\n•  **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🎄 SENSI - UBOT MENU 🎄**\n\n•  **Owner** [{user.first_name}](tg://user?id={user.id})\n•  **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
@@ -694,12 +694,12 @@ with bot:
                     description="Repository RAM - UBOT",
                     url="https://t.me/ramsupportt",
                     thumb=InputWebDocument(HELP_LOGO, 0, "image/jpeg", []),
-                    text="**🌟 RAM - UBOT 🌟**\n➖➖➖➖➖➖➖➖➖➖\n❍▸ **Owner Repo :** [merdhani](https://t.me/merdhni)\n**Support :** @UserbotCh\n❍▸ **Repository :** [⭐ RAM - UBOT ⭐](https://github.com/ramadhani892/RAM-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**🎭 SENSI - UBOT 🎭**\n➖➖➖➖➖➖➖➖➖➖\n❍▸ **Owner Repo :** [merdhani](https://t.me/merdhni)\n**Support :** @UserbotCh\n❍▸ **Repository :** [⭐ RAM - UBOT ⭐](https://github.com/ramadhani892/RAM-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/ramsupportt"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/virtualizem"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/ramadhani892/RAM-UBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/sensiherme/SENSI-UBOT"
                             ),
                         ],
                     ],
@@ -739,16 +739,16 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🌟 RAM - UBOT 🌟",
+                    title="🎄 SENSI - UBOT 🎄",
                     description="RAM - UBOT | Telethon",
                     url="https://t.me/ramsupportt",
                     thumb=InputWebDocument(HELP_LOGO, 0, "image/jpeg", []),
-                    text=f"**✨ RAM - UBOT ✨**\n➖➖➖➖➖➖➖➖➖➖\n**UserMode:** [{user.first_name}](tg://user?id={user.id})\n**Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @UserbotCh\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**🎭 SENSI - UBOT 🎭**\n➖➖➖➖➖➖➖➖➖➖\n**UserMode:** [{user.first_name}](tg://user?id={user.id})\n**Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @UserbotCh\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/ramsupportt"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/virtualizem"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏꜱɪᴛᴏʀʏ", "https://github.com/ramadhani892/RAM-UBOT"
+                                "ʀᴇᴘᴏꜱɪᴛᴏʀʏ", "https://github.com/sensiherme/SENSI-UBOT"
                              ),
                         ],
                     ],
@@ -763,7 +763,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**⭐ RAM - UBOT ⭐ Inline Menu**\n\n🔸 **Owner** [{user.first_name}](tg://user?id={user.id})\n•  **Jumlah** `{len(dugmeler)}` Module"
+                text = f"**🎭 SENSI - UBOT 🎭 Inline Menu**\n\n🔸 **Owner** [{user.first_name}](tg://user?id={user.id})\n•  **Jumlah** `{len(dugmeler)}` Module"
                 await event.edit(
                     text,
                     file=ramlogo,

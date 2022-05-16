@@ -7,18 +7,18 @@
 <img src="https://telegra.ph/file/fac49608eb86a69f85745.jpg">
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+  <a href="https://github.com/sensiherme/SENSI-UBOT/fork">
+    <img src="https://img.shields.io/github/forks/sensiherme/SENSI-UBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
+  <a href="https://github.com/sensiherme/SENSI-UBOT">
     <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+![VIEWS](https://komarev.com/ghpvc/?username=sensiherme)
 
-<a href="https://t.me/ramsupportt"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
+<a href="https://t.me/virtualizem"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 ## TRAKTIR KOPI
 <p align="center"><a href="https://t.me/userbotch/9"> <img src="https://img.shields.io/badge/TRAKTIR%20KOPI%20TIPIS²-blue?style=flat&logo=Paypal" width="300" height="38.60" /></a></p>

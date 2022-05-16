@@ -28,12 +28,12 @@ async def ram_client(client):
     client.uid = telethon.utils.get_peer_id(client.me)
 
 
-def ramulti():
+def senulti():
     failed = 0
     if STRING_SESSION:
         try:
             bot.start()
-            LOOP.run_until_complete(ram_client(bot))
+            LOOP.run_until_complete(sen_client(bot))
             user = bot.get_me()
             name = user.first_name
             uid = user.id
@@ -48,13 +48,13 @@ def ramulti():
 
     if STRING_2:
         try:
-            RAM2.start()
+            SEN2.start()
             LOOP.run_until_complete(ram_client(RAM2))
-            user = RAM2.get_me()
+            user = SEN2.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(f"STRING_2 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
-            if user.id in ramblacklist:
+            if user.id in senblacklist:
                 LOGS.warning(MSG_BLACKLIST.format(name, version))
                 sys.exit(1)
         except Exception as e:
@@ -62,13 +62,13 @@ def ramulti():
 
     if STRING_3:
         try:
-            RAM3.start()
-            LOOP.run_until_complete(ram_client(RAM3))
-            user = RAM3.get_me()
+            SEN3.start()
+            LOOP.run_until_complete(sen_client(SEN3))
+            user = SEN3.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(f"STRING_3 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
-            if user.id in ramblacklist:
+            if user.id in senblacklist:
                 LOGS.warning(MSG_BLACKLIST.format(name, version))
                 sys.exit(1)
         except Exception as e:
@@ -76,13 +76,13 @@ def ramulti():
 
     if STRING_4:
         try:
-            RAM4.start()
-            LOOP.run_until_complete(ram_client(RAM4))
-            user = RAM4.get_me()
+            SEN4.start()
+            LOOP.run_until_complete(sen_client(SEN4))
+            user = SEN4.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(f"STRING_4 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
-            if user.id in ramblacklist:
+            if user.id in senblacklist:
                 LOGS.warning(MSG_BLACKLIST.format(name, version))
                 sys.exit(1)
         except Exception as e:
@@ -90,13 +90,13 @@ def ramulti():
 
     if STRING_5:
         try:
-            RAM5.start()
-            LOOP.run_until_complete(ram_client(RAM5))
+            SEN5.start()
+            LOOP.run_until_complete(sen_client(SEN5))
             user = RAM5.get_me()
             name = User.first_name
             uid = user.id
             LOGS.info(f"STRING_5 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
-            if user.id in ramblacklist:
+            if user.id in senblacklist:
                 LOGS.warning(MSG_BLACKLIST.format(name, version))
                 sys.exit(1)
         except Exception as e:

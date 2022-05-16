@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » @ramsupportt » Lalu ketik #string",
+      "description": "Dapatkan String Session di Grup » @virtualizem » Lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {

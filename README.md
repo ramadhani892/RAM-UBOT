@@ -20,7 +20,7 @@
 
 <a href="https://t.me/virtualizem"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
-## TRAKTIR KOPI
+## TRAKTIR BERAS
 <p align="center"><a href="https://t.me/userbotch/9"> <img src="https://img.shields.io/badge/TRAKTIR%20KOPI%20TIPIS²-blue?style=flat&logo=Paypal" width="300" height="38.60" /></a></p>
 
 

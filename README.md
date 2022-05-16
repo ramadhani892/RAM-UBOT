@@ -1,6 +1,6 @@
 <a href="https://www.gambaranimasi.org/cat-bintang-280.htm"><img src="https://www.gambaranimasi.org/data/media/280/animasi-bergerak-bintang-0157.gif" border="0" alt="animasi-bergerak-bintang-0157" /></a>
     <p align="center"> 
-<a href="https://t.me/ramsupportt"><img src="https://see.fontimg.com/api/renderfont4/2O6xe/eyJyIjoiZnMiLCJoIjoxOTUsInciOjMwMDAsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/UkFNIFVCT1Q/organical-personal-use-bold-italic.png" alt="3D fonts"></a>
+<a href="https://t.me/virtualizem"><img src="https://see.fontimg.com/api/renderfont4/2O6xe/eyJyIjoiZnMiLCJoIjoxOTUsInciOjMwMDAsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/UkFNIFVCT1Q/organical-personal-use-bold-italic.png" alt="3D fonts"></a>
 <a href="https://www.gambaranimasi.org/cat-bintang-280.htm"><img src="https://www.gambaranimasi.org/data/media/280/animasi-bergerak-bintang-0157.gif" border="0" alt="animasi-bergerak-bintang-0157" /></a>
     <p align="center"> 
 
@@ -12,7 +12,7 @@
     
   </a>
   <a href="https://github.com/sensiherme/SENSI-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+    <img src="https://img.shields.io/github/stars/sensiherme/SENSI-UBOT?style=social">
   </a>
 </p>  
 
